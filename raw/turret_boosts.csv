@@ -1,0 +1,5 @@
+Name,TID,TID_Description,Icon,EffectType,Stat,IncreaseAmt
+FireRange_SM,TID_BOOST_FIRERANGE_SM,TID_BOOST_FIRERANGE_SM_DESCR,temp_relic,IncreaseSpecificStat,0,10%
+Damage_SM,TID_BOOST_DMG_SM,TID_BOOST_DMG_SM_DESCR,temp_relic,IncreaseSpecificStat,3,12%
+ARC_SM,TID_BOOST_ARC_SM,TID_BOOST_ARC_SM_DESCR,temp_relic,IncreaseSpecificStat,2,15
+SPEED_SM,TID_BOOST_SPEED_SM,TID_BOOST_SPEED_SM_DESCR,temp_relic,IncreaseSpecificStat,11,15%
