@@ -18,16 +18,13 @@ export default async function(path, runners) {
         if (files.constructor === String && files === fileName) {
             return true;
         }
-        if (Array.isArray(files) && files.includes(fileName)) {
-            return true;
-        }
         if (files.constructor === RegExp && files.test(fileName)) {
             return true;
         }
     });
 
     if (runner) {
-        metadata.pluginName = runner.name;
+        metadata.runnerName = runner.name;
         return runner.main(file, metadata);
     } else {
         return new JsonRaw(file, metadata);

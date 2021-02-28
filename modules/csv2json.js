@@ -1,47 +1,56 @@
 /**
  * Парсер из таблицы в обект
- * @param  {String} csv      Сырая таблица
- * @param  {Array=} headers  Заголовки. По умолчанию первая строчка таблицы
- * @return {Object}          Результат
+ * @param  {String} csv Сырая таблица
+ * @return {Object}     Результат
  */
-export default function csv2json(csv, headers = null) {
-    const obj = {};
-    const data = csv.trim().split(/\r?\n/);
-    headers = (headers) ? headers : data[0].split(',');
+export default function csv2json(csv) {
     let subName = null;
+    const obj = {};
+    const data = csv
+        .trim()
+        .split(/\r?\n/);
+    const headers = data
+        .shift()
+        .trim()
+        .split(',');
 
     if (headers.length <= 1) {
         return simpleArray(data);
     }
-    for (let i = 1; i < data.length; i++) {
+    for (let i = 0; i < data.length; i++) {
         const string = data[i].split(',');
+        const [ first ] = string;
 
         if (!string.length) continue;
-        if (string[0]) {
-            subName = string[0]
-                .replace(/["']+/g, '')
-                .trim();
+        if (first) {
+            subName = first.trim();
             obj[subName] = {};
         }
         for (let j = 0; j < string.length; j++) {
             const header = headers[j];
-            const value = string[j].trim();
+            const value = fixValue(string[j]);
             const stockValue = obj[subName][header];
 
-            if (value === undefined || !value.length) continue;
-            // value = fixValue(header, value);
+            if (value.constructor === String && !value) continue;
 
             if (stockValue === undefined || stockValue === '') {
                 obj[subName][header] = value;
             } else if (Array.isArray(stockValue)) {
                 obj[subName][header].push(value);
             } else {
-                obj[subName][header] = [stockValue, value];
+                obj[subName][header] = [ stockValue, value ];
             }
         }
     }
     // return removeDupsFromArrays(obj);
     return obj;
+}
+
+function fixValue(val) {
+    if (isNaN(val)) {
+        return val.trim();
+    }
+    return parseInt(val, 10) || '';
 }
 
 // // массив, сравнивать i и i+1, если все элементы равны установить вместо массива i[0] || {key:[1,1,1,1]} => {key:1}
@@ -66,7 +75,7 @@ export default function csv2json(csv, headers = null) {
 function simpleArray(array) {
     return {
         array: array
-            .filter((e) => e.length),
+            .filter(({ length }) => length),
         // .map((e) => fixValue( null, e));
     };
 }

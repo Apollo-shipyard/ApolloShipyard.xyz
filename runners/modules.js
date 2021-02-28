@@ -8,13 +8,14 @@ export default class Modules extends Runner {
     static get config() {
         return {
             files: 'modules',
-            ignoreFiles: ['fighters'],
+            ignoreFiles: [ 'fighters' ],
         };
     }
 
     static main(raw, meta) {
         // const [fighters] = this.readIgnoreFiles;
+        const data = this.parse(raw);
 
-        return this.newJsonRaw(raw, meta);
+        return this.newJson(data, meta);
     }
 }
