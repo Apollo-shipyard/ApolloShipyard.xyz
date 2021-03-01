@@ -2,22 +2,22 @@ import prettier from 'prettier';
 import { existsSync, mkdirSync } from 'fs';
 import { dirname, resolve, parse, format } from 'path';
 
-import { writeFile2 } from '../utils/dir.js';
+import { writeFile2 } from '../../utils/dir.js';
 // import NestedRawJson from './NestedRawJson.js';
 // import byTypes from '../config/byTypes.js';
-import { default as config } from '../configs/saveFile.js';
+import config from './config.js';
 
 const savePath = resolve('./dist');
 
 /**
  * Сохранить в файл
- * @param  {Function<JsonRaw>} raw  Объект, который нужно сохранить
+ * @param  {Function<Runner>} raw  Объект, который нужно сохранить
  * @param  {Object} program         Тип сохраняемого файла (прим. 'json', 'yaml' и т.д)
  * @return {Promise<void>|Error}
  */
 export default function saveFile(raw, { type }) {
     // const addData = addContent(json);
-    const { data, metadata } = raw;
+    const { data, metadata } = raw.render();
     const originalFile = parse(metadata.originalFile);
     const path = format({
         ...originalFile,

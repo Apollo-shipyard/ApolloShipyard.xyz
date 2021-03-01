@@ -6,33 +6,26 @@
 export default function csv2json(csv) {
     let subName = null;
     const obj = {};
-    const data = csv
+    const [ headers, ...data ] = csv
         .trim()
-        .split(/\r?\n/);
-    const headers = data
-        .shift()
-        .trim()
-        .split(',');
+        .split(/\r?\n/)
+        .filter(({ length }) => length)
+        .map((s) => s.split(','));
 
     if (headers.length <= 1) {
         return simpleArray(data);
     }
-    for (let i = 0; i < data.length; i++) {
-        const string = data[i].split(',');
-        const [ first ] = string;
-
-        if (!string.length) continue;
-        if (first) {
-            subName = first.trim();
+    data.forEach((string) => {
+        if (string[0]) {
+            subName = string[0].trim();
             obj[subName] = {};
         }
-        for (let j = 0; j < string.length; j++) {
-            const header = headers[j];
-            const value = fixValue(string[j]);
+        string.forEach((elem, i) => {
+            const value = fixValue(elem);
+            const header = headers[i];
             const stockValue = obj[subName][header];
 
-            if (value.constructor === String && !value) continue;
-
+            if (value.constructor === String && !value) return;
             if (stockValue === undefined || stockValue === '') {
                 obj[subName][header] = value;
             } else if (Array.isArray(stockValue)) {
@@ -40,8 +33,8 @@ export default function csv2json(csv) {
             } else {
                 obj[subName][header] = [ stockValue, value ];
             }
-        }
-    }
+        });
+    });
     // return removeDupsFromArrays(obj);
     return obj;
 }

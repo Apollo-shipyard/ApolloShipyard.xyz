@@ -1,7 +1,7 @@
 import { basename } from 'path';
 import { readFile } from 'fs/promises';
 
-import JsonRaw from './JsonRaw.js';
+import { Pure } from './Runner.js';
 
 /**
  * Загрузить файл и обработать ранерами
@@ -14,7 +14,7 @@ export default async function(path, runners) {
     const metadata = { originalFile: path, runnerName: null };
     const file = await readFile(path, 'utf-8');
     const fileName = basename(path, '.csv');
-    const runner = runners.find(({ config: { files } }) => {
+    const MyRunner = runners.find(({ config: { files } }) => {
         if (files.constructor === String && files === fileName) {
             return true;
         }
@@ -23,10 +23,14 @@ export default async function(path, runners) {
         }
     });
 
-    if (runner) {
-        metadata.runnerName = runner.name;
-        return runner.main(file, metadata);
-    } else {
-        return new JsonRaw(file, metadata);
+    if (MyRunner) {
+        return new MyRunner({
+            raw: file,
+            metadata,
+        });
     }
+    return new Pure({
+        raw: file,
+        metadata,
+    });
 }

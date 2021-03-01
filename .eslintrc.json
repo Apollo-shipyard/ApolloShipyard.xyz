@@ -1,5 +1,5 @@
 {
-  "parser": "@babel/eslint-parser", // всё ради Top Level Await
+  "parser": "@babel/eslint-parser",
   "extends": "google",
   "parserOptions": {
     "ecmaVersion": 2021,

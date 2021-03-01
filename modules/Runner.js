@@ -3,23 +3,42 @@ import JsonRaw from './JsonRaw.js';
 import csv2json from './csv2json.js';
 
 export default class Runner {
-    static readCsv(...args) {
+    constructor(args) {
+        this.args = args;
+        this.args.metadata.runnerName = this.constructor.name;
+        // debugger;
+    }
+
+    readCsv(...args) {
         return readCsv(...args);
     }
 
-    static parse(...args) {
+    parse(...args) {
         return csv2json(...args);
     }
 
-    static newJson(...args) {
+    newJson(...args) {
         return new JsonRaw(...args);
     }
 
+    // static get readIgnoreFiles() {
+    //     const { ignoreFiles } = this.config;
+    //     if (!ignoreFiles) return ignoreFiles;
+    //
+    //     return ignoreFiles.map((name) => this.readCsv(name));
+    // }
+}
 
-    static get readIgnoreFiles() {
-        const { ignoreFiles } = this.config;
-        if (!ignoreFiles) return ignoreFiles;
+export class Pure extends Runner {
+    constructor(args) {
+        super(args);
+        this.metadata.runnerName = null;
+    }
 
-        return ignoreFiles.map((name) => this.readCsv(name));
+    static config = {}
+
+    render() {
+        const data = this.parse(this.args.raw);
+        return this.newJson(data, this.args.meta);
     }
 }

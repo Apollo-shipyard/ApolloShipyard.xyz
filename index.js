@@ -21,8 +21,8 @@ const loadRunners = readdirSync(runnersPath)
 const runners = await Promise.all(loadRunners)
     .then((runs) => runs
         .map((e) => e.default)
-        .filter(({ main, config, name }) => {
-            if (main && config) { // TODO мб норм валидатор
+        .filter(({ config, name }) => {
+            if (config) { // TODO мб норм валидатор
                 return true;
             }
             console.log('\x1b[31m %s \x1b[0m', `Invalid runner "${name}" - pass`);
