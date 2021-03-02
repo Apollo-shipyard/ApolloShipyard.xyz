@@ -1,10 +1,6 @@
 import Runner from '../modules/Runner.js';
 
 export default class LocStrings extends Runner {
-    constructor(args) {
-        super(args);
-    }
-
     static config = {
         files: /loc_strings_\w+/,
     }

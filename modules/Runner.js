@@ -6,11 +6,16 @@ export default class Runner {
     constructor(args) {
         this.args = args;
         this.args.metadata.runnerName = this.constructor.name;
-        // debugger;
     }
 
     readCsv(...args) {
         return readCsv(...args);
+    }
+
+    multiReadCsv(names) {
+        return names.map((n) => (
+            this.readCsv(n)
+        ));
     }
 
     parse(...args) {
@@ -20,13 +25,6 @@ export default class Runner {
     newJson(...args) {
         return new JsonRaw(...args);
     }
-
-    // static get readIgnoreFiles() {
-    //     const { ignoreFiles } = this.config;
-    //     if (!ignoreFiles) return ignoreFiles;
-    //
-    //     return ignoreFiles.map((name) => this.readCsv(name));
-    // }
 }
 
 export class Pure extends Runner {
