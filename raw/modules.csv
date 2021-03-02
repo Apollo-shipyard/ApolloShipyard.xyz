@@ -19,7 +19,7 @@ FireflySquad,TID_MOD_FIREFLY_SQUAD,TID_MOD_FIREFLY_SQUAD_DESCR,concept_FireflySq
 ,,,,,,,,,100,,,600,,,,,,,,,,,
 ,,,,,,,,,150,,,1000,,,,,,,,,,,
 ,,,,,,,,,250,,,1500,,,,,,,,,,,
-FireflyStealth,TID_MOD_FIREFLY_STEALTH,TID_MOD_FIREFLY_STEALTH_DESCR,concept_StealthFirefly,2,,,FireflyStealth,,1,,,0,500,30,,0,FireflyStealth,2000,2,-200!0!200!0,,,sfx_generic_fighter_bomber_spawn
+FireflyStealth,TID_MOD_FIREFLY_STEALTH,TID_MOD_FIREFLY_STEALTH_DESCR,concept_StealthFirefly,2,,,FireflyStealth,,1,,,0,500,20,,0,FireflyStealth,2000,2,-200!0!200!0,,,sfx_generic_fighter_bomber_spawn
 ,,,,,,,,,5,,,10,,,,,,,,,,,
 ,,,,,,,,,20,,,20,,,,,,,,,,,
 ,,,,,,,,,50,,,40,,,,,,,,,,,
@@ -89,7 +89,7 @@ Interceptor,TID_MOD_INTERCEPTOR,TID_MOD_INTERCEPTOR_DESCR,concept_Interceptor,2,
 ,,,,,,,,,700,,,600,,,,,,,,,,,
 ,,,,,,,,,1000,,,1000,,,,,,,,,,,
 ,,,,,,,,,1500,,,1500,,,,,,,,,,,
-Titan,TID_MOD_TITAN,TID_MOD_TITAN_DESCR,concept_Titan,3,,,Titan,,1,,,0,3000,80,,0,Titan,4000,1,,,,sfx_generic_fighter_bomber_spawn
+Titan,TID_MOD_TITAN,TID_MOD_TITAN_DESCR,concept_Titan,3,,,Titan,,1,,,0,3000,80,,0,Titan,8000,1,,,,sfx_generic_fighter_bomber_spawn
 ,,,,,,,,,5,,,10,,,,,,,,,,,
 ,,,,,,,,,20,,,20,,,,,,,,,,,
 ,,,,,,,,,50,,,40,,,,,,,,,,,
@@ -139,7 +139,7 @@ MeteorShower,TID_MOD_METEORSHOWER,TID_MOD_METEORSHOWER_DESCR,concept_MeteorShowe
 ,,,,,,,,,700,,,600,,,,,,,,,,,
 ,,,,,,,,,1000,,,1000,,,,,,,,,,,
 ,,,,,,,,,1500,,,1500,,,,,,,,,,,
-IonBlast,TID_MOD_IONBLAST,TID_MOD_IONBLAST_DESCR,concept_IonBlast,3,1,,IonBlast,,1,,,0,3000,40,IonBlast,1,,,,,,,
+IonBlast,TID_MOD_IONBLAST,TID_MOD_IONBLAST_DESCR,concept_IonBlast,3,1,,IonBlast,,1,,,0,3000,50,IonBlast,2,,,,,,,
 ,,,,,,,,,2,,,10,,,,,,,,,,,
 ,,,,,,,,,4,,,20,,,,,,,,,,,
 ,,,,,,,,,8,,,40,,,,,,,,,,,
@@ -289,4 +289,4 @@ StealthTank,TID_MOD_STEALTH_TANK,TID_MOD_STEALTH_TANK,concept_StealthTank,7,1,1,
 ,,,,,,,,,100,,,600,,,,,,,,,,,
 ,,,,,,,,,150,,,1000,,,,,,,,,,,
 ,,,,,,,,,250,,,1500,,,,,,,,,,,
-GaiaFighter,TID_MOD_STEALTH_TANK,TID_MOD_STEALTH_TANK,concept_StealthTank,7,1,1,,,,,,,999999999,0,,0,GFighter,0,1,,,0!-210,
+GaiaFighter,TID_BS_ABILITY_GFIGHTER,TID_BS_ABILITY_GFIGHTER,concept_StealthTank,7,1,1,,,,,,,999999999,0,,0,GFighter,0,1,,,0!-210,

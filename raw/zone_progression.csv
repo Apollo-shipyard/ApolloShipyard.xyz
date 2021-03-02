@@ -8,13 +8,13 @@ Name,InfluenceAmount,RewardType,RewardDataRef,RewardAmount
 7,150,Artifact,Regular2,
 8,200,Credits,,50
 9,250,Artifact,Large2,
-10,300,ZoneUnlock,,3
+10,300,ZoneUnlock,Titan,3
 11,350,Artifact,Regular3,
 12,400,Credits,,50
 13,450,Artifact,Large3,
 14,500,Battleship,Ares,
 15,550,ShipXP,,50
-16,600,ZoneUnlock,,4
+16,600,ZoneUnlock,FireflySquad,4
 17,650,Artifact,Regular4,
 18,700,Credits,,50
 19,750,Artifact,Large4,

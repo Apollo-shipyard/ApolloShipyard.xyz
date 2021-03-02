@@ -272,6 +272,7 @@ export default {
     TID_MODULE_STAT_AOE_DURATION: "EFFECT DURATION",
     TID_MODULE_STAT_SPAWN_TIME: "SPAWN TIME",
     TID_MODULE_STAT_AREA_DAMAGE: "AREA DAMAGE",
+    TID_MODULE_STAT_AREA_DAMAGE_VS_BS: "AREA DAMAGE (vs BATTLESHIPS)",
     TID_MODULE_STAT_AREA_HEAL: "HEAL AMOUNT",
     TID_MODULE_STAT_DISABLE_TIME: "DISABLE TIME",
     TID_MODULE_STAT_FIRE_BOOST: "FIRE RATE INCREASE",
@@ -538,7 +539,7 @@ export default {
         "Does a small amount of damage to all enemy Fighters and Battleships within the effect area. Very useful against hordes of weak Fighters.",
     TID_MOD_IONBLAST: "ION BLAST",
     TID_MOD_IONBLAST_DESCR:
-        "Does a reasonable amount of damage to all enemy Fighters and Battleships within the effect area.",
+        "Applies a large amount of damage to all enemy Fighters and Factories within the effect area. Significantly reduced damage against Battleships and Bases.",
     TID_MOD_NUCLEARBOMB: "NUCLEAR BOMB",
     TID_MOD_NUCLEARBOMB_DESCR:
         "A very powerful bomb that does massive area damage to all enemy Fighters and Battleships inside the small impact area. Can be targeted anywhere on the map.",
@@ -611,6 +612,12 @@ export default {
     TID_MATCH_ENDED: "COMBAT ENDED",
     TID_RESPAWN_IN_SEC: "RETURNING IN {0}",
     TID_COMMANDER_ABILITY_PASSIVE: "This Commander Ability is passive and cannot be activated.",
+    TID_TEAMMATE_PING_LBL: "PING TEAMMATE",
+    TID_TEAMMATE_PING_IMOVE: "I am moving to...",
+    TID_TEAMMATE_PING_YOUMOVE: "Move to position...",
+    TID_TEAMMATE_PING_IMOVE_SETTING: "TEAMMATE PING: I am moving to...",
+    TID_TEAMMATE_PING_YOUMOVE_SETTING: "TEAMMATE PING: Move to position...",
+    TID_PING_RATE_LIMITED: "You can not send a ping that often.",
     TID_COMBAT_RESULTS: "COMBAT RESULTS",
     TID_FINAL_RANKING: "FINAL RANKING",
     TID_INFLUENCE_DIFF: "INFLUENCE",
@@ -661,6 +668,12 @@ export default {
     TID_UNLINK_STEAM_PROMPT_TOGGLE: "I understand and wish to continue.",
     TID_SETTINGS_QUIT_GAME: "EXIT GAME",
     TID_CONFIGURE_CONTROLS: "CONFIGURE CONTROLS",
+    TID_ACCOUNT_HEADER: "ACCOUNT",
+    TID_ACCOUNT_INFO_STEAM:
+        "Your progress is being saved to your Steam account. To access your game from another Steam computer, simply sign in to Steam with the same account and launch the game.\\n\\nTo access your game from a non-Steam device, press the Link button below.",
+    TID_ACCOUNT_LINK_BTN: "LINK ANOTHER DEVICE",
+    TID_ACCOUNT_LOGGEDIN_ANDROID:
+        "Your progress is being saved to your Google account. To access your game from another Android device, sign in with the same Google account.\\n\\nTo access your game from a non-Android device, press the Link button below.",
     TID_CTRL_DLG_CAMERA_UP: "MOVE CAMERA UP",
     TID_CTRL_DLG_CAMERA_DOWN: "MOVE CAMERA DOWN",
     TID_CTRL_DLG_CAMERA_LEFT: "MOVE CAMERA LEFT",

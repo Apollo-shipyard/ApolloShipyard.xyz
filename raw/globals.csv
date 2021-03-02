@@ -26,7 +26,7 @@ CorporationScoreIntervals,10!20!100
 CorporationScoreDividers,2!4!10
 MaxChatMessages,100
 MaxAllianceMembers,40
-ReplayVersion,1
+ReplayVersion,2
 MinAllianceNameLength,3
 MaxAllianceNameLength,16
 MaxTurretNameLength,16
