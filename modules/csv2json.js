@@ -21,17 +21,18 @@ export default function csv2json(csv) {
             obj[subName] = {};
         }
         string.forEach((elem, i) => {
-            const value = fixValue(elem);
             const header = headers[i];
-            const stockValue = obj[subName][header];
+            const subObj = obj[subName];
+            const stockValue = subObj[header];
+            const value = fixValue(elem);
 
             if (value.constructor === String && !value) return;
             if (stockValue === undefined || stockValue === '') {
-                obj[subName][header] = value;
+                subObj[header] = value;
             } else if (Array.isArray(stockValue)) {
-                obj[subName][header].push(value);
+                stockValue.push(value);
             } else {
-                obj[subName][header] = [ stockValue, value ];
+                subObj[header] = [ stockValue, value ];
             }
         });
     });
@@ -40,10 +41,11 @@ export default function csv2json(csv) {
 }
 
 function fixValue(val) {
-    if (isNaN(val)) {
+    const parsed = parseInt(val, 10);
+    if (isNaN(val) || isNaN(parsed)) {
         return val.trim();
     }
-    return parseInt(val, 10) || '';
+    return parsed;
 }
 
 // // массив, сравнивать i и i+1, если все элементы равны установить вместо массива i[0] || {key:[1,1,1,1]} => {key:1}

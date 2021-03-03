@@ -18,8 +18,10 @@ export default {
         },
         InitialBlueprints: 1,
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 500,
         HydrogenCost: 10,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Firefly",
             Model: "fighter_Firefly",
@@ -42,6 +44,7 @@ export default {
                     Name: "TinyBullet",
                     InitialSpeed: 2000,
                     Damage: [20, 22, 24, 26, 28, 30, 33, 36, 39, 42],
+                    DamageRange: 0,
                     Model: "firefly_tinybullet",
                     ImpactFX: "projectiles/ImpactFx_Ty_01",
                     launch_sfx: "BLASTER_Deep_Muffled_stereo",
@@ -49,6 +52,7 @@ export default {
                 },
                 ProjectileLaunchMs: 500,
                 MaxTargets: 1,
+                TargetStealth: 0,
                 CanTargetBS: 1,
                 CanTargetFighters: 1,
             },
@@ -59,7 +63,6 @@ export default {
         NumSpawnedFighters: 2,
         LaunchOffsets: "-200!0!200!0",
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     FireflySquad: {
         Name: "FireflySquad",
@@ -78,8 +81,10 @@ export default {
             EndTick: 220,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 50,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Firefly",
             Model: "fighter_Firefly",
@@ -102,6 +107,7 @@ export default {
                     Name: "TinyBullet",
                     InitialSpeed: 2000,
                     Damage: [20, 22, 24, 26, 28, 30, 33, 36, 39, 42],
+                    DamageRange: 0,
                     Model: "firefly_tinybullet",
                     ImpactFX: "projectiles/ImpactFx_Ty_01",
                     launch_sfx: "BLASTER_Deep_Muffled_stereo",
@@ -109,6 +115,7 @@ export default {
                 },
                 ProjectileLaunchMs: 500,
                 MaxTargets: 1,
+                TargetStealth: 0,
                 CanTargetBS: 1,
                 CanTargetFighters: 1,
             },
@@ -119,7 +126,6 @@ export default {
         NumSpawnedFighters: 12,
         LaunchOffsets: "300!0!100!0!-100!0!-300!0!0!100!200!100!-200!100!0!300!0!-100!200!-100!-200!-100!0!-300",
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     FireflyStealth: {
         Name: "FireflyStealth",
@@ -138,8 +144,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 500,
         HydrogenCost: 20,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "FireflyStealth",
             Model: "fighter_Firefly_stealth",
@@ -162,6 +170,7 @@ export default {
                     Name: "TinyBullet",
                     InitialSpeed: 2000,
                     Damage: [20, 22, 24, 26, 28, 30, 33, 36, 39, 42],
+                    DamageRange: 0,
                     Model: "firefly_tinybullet",
                     ImpactFX: "projectiles/ImpactFx_Ty_01",
                     launch_sfx: "BLASTER_Deep_Muffled_stereo",
@@ -181,7 +190,6 @@ export default {
         NumSpawnedFighters: 2,
         LaunchOffsets: "-200!0!200!0",
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Arrow: {
         Name: "Arrow",
@@ -200,8 +208,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 20,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Arrow",
             Model: "fighter_Arrow",
@@ -224,6 +234,7 @@ export default {
                     Name: "ArrowBullet",
                     InitialSpeed: 1500,
                     Damage: [150, 165, 181, 199, 218, 239, 262, 288, 316, 347],
+                    DamageRange: 0,
                     Model: "arrow_MedBullet",
                     ImpactFX: "projectiles/ImpactFx_Sm_01",
                     launch_sfx: "sfx_arrow_projectile_launch",
@@ -231,6 +242,7 @@ export default {
                 },
                 ProjectileLaunchMs: 1500,
                 MaxTargets: 1,
+                TargetStealth: 0,
                 CanTargetBS: 1,
             },
             TargetsBS: 1,
@@ -240,7 +252,6 @@ export default {
         FighterSpawnMs: 2000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     ArrowFactory: {
         Name: "ArrowFactory",
@@ -259,8 +270,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 70,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "ArrowFactory",
             Model: "drone_fireflyFactory",
@@ -270,6 +283,7 @@ export default {
             MaxHealth: [2000, 2200, 2420, 2662, 2928, 3220, 3542, 3896, 4285, 4713],
             PrimaryWeapon: {
                 Name: "ArrowFactory",
+                FiringRange: 0,
                 FighterToLaunch: "Arrow",
                 FighterLaunchMs: 6000,
                 LaunchFighterWithoutTarget: 1,
@@ -281,9 +295,9 @@ export default {
             LifetimeMs: 30000,
             sfx_destroy: "sfx_large_explosion_03",
         },
+        FighterSpawnMs: 0,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Bomber: {
         Name: "Bomber",
@@ -303,8 +317,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 20,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Bomber",
             Model: "fighter_Bomber",
@@ -348,7 +364,6 @@ export default {
         FighterSpawnMs: 2000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Ghost: {
         Name: "Ghost",
@@ -368,8 +383,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 40,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Ghost",
             Model: "fighter_Ghost",
@@ -392,6 +409,7 @@ export default {
                     Name: "GhostBullet",
                     InitialSpeed: 1000,
                     Damage: [400, 440, 484, 532, 585, 643, 707, 777, 854, 939],
+                    DamageRange: 0,
                     Model: "ghost_Bullet",
                     LaunchFX: "projectiles/LaunchFx_01",
                     ImpactFX: "projectiles/ghost_ImpactFx_01",
@@ -409,7 +427,6 @@ export default {
         FighterSpawnMs: 2000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     GhostFactory: {
         Name: "GhostFactory",
@@ -428,8 +445,10 @@ export default {
             EndTick: 600,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 80,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "GhostFactory",
             Model: "drone_fireflyFactory",
@@ -439,6 +458,7 @@ export default {
             MaxHealth: [2000, 2200, 2420, 2662, 2928, 3220, 3542, 3896, 4285, 4713],
             PrimaryWeapon: {
                 Name: "GhostFactory",
+                FiringRange: 0,
                 FighterToLaunch: "Ghost",
                 FighterLaunchMs: 8000,
                 LaunchFighterWithoutTarget: 1,
@@ -450,9 +470,9 @@ export default {
             LifetimeMs: 32000,
             sfx_destroy: "sfx_large_explosion_01",
         },
+        FighterSpawnMs: 0,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Interceptor: {
         Name: "Interceptor",
@@ -471,8 +491,10 @@ export default {
             EndTick: 280,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 40,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Interceptor",
             Model: "fighter_Interceptor",
@@ -496,6 +518,7 @@ export default {
                     Name: "InterceptorBullet",
                     InitialSpeed: 2000,
                     Damage: [16, 17, 18, 19, 20, 22, 24, 26, 28, 30],
+                    DamageRange: 0,
                     Model: "interceptor_MedBullet",
                     LaunchFX: "projectiles/LaunchFx_01",
                     ImpactFX: "projectiles/ImpactFx_01",
@@ -504,6 +527,7 @@ export default {
                 },
                 ProjectileLaunchMs: 250,
                 MaxTargets: 4,
+                TargetStealth: 0,
                 CanTargetBS: 1,
                 CanTargetFighters: 1,
             },
@@ -514,7 +538,6 @@ export default {
         FighterSpawnMs: 3000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Titan: {
         Name: "Titan",
@@ -532,11 +555,14 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 80,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Titan",
             Model: "fighter_Titan",
+            SortLayer: 0,
             Radius: 300,
             OBB: "100!330",
             MoveScript: 1,
@@ -564,6 +590,7 @@ export default {
                 },
                 ProjectileLaunchMs: 6000,
                 MaxTargets: 1,
+                TargetStealth: 0,
                 CanTargetBS: 1,
                 CanTargetFighters: 1,
             },
@@ -573,7 +600,6 @@ export default {
         FighterSpawnMs: 8000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     DartLauncher: {
         Name: "DartLauncher",
@@ -593,8 +619,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 70,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "DartLauncher",
             Model: "fighter_DartLauncher",
@@ -616,6 +644,7 @@ export default {
                 FighterToLaunch: "Dart",
                 FighterLaunchMs: 10000,
                 MaxTargets: 1,
+                TargetStealth: 0,
                 CanTargetBS: 1,
                 LaunchOffsets: "-300!-160!300!-160",
                 NumToLaunch: 2,
@@ -628,7 +657,6 @@ export default {
         FighterSpawnMs: 500,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Cyclops: {
         Name: "Cyclops",
@@ -646,8 +674,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 60,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Cyclops",
             Model: "fighter_Cyclops",
@@ -666,6 +696,7 @@ export default {
             PrimaryWeapon: {
                 Name: "Laser",
                 FiringRange: 1200,
+                ProjectileLaunchMs: 0,
                 DPSOverChargeStage: "80!300!1000",
                 ChargeStageMs: "1000!7000!12000",
                 MaxTargets: 1,
@@ -680,7 +711,6 @@ export default {
         FighterSpawnMs: 2000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Heal: {
         Name: "Heal",
@@ -691,6 +721,7 @@ export default {
         Hide: 1,
         Scene: {},
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 30,
         EffectArea: {
@@ -705,7 +736,6 @@ export default {
             Model: "AreaHeal",
         },
         SectorRange: 1,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     MeteorShower: {
         Name: "MeteorShower",
@@ -725,6 +755,7 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 30,
         EffectArea: {
@@ -741,7 +772,6 @@ export default {
             sfx_spawn: "sfx_meteors_attack",
         },
         SectorRange: 1,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     IonBlast: {
         Name: "IonBlast",
@@ -760,6 +790,7 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 50,
         EffectArea: {
@@ -775,7 +806,6 @@ export default {
             Model: "effectAreaIonBlast",
         },
         SectorRange: 2,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     NuclearBomb: {
         Name: "NuclearBomb",
@@ -786,6 +816,7 @@ export default {
         Hide: 1,
         Scene: {},
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 70,
         EffectArea: {
@@ -801,7 +832,6 @@ export default {
             Model: "effectAreaNuclearBomb",
         },
         SectorRange: 999,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Portal: {
         Name: "Portal",
@@ -820,6 +850,7 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 50,
         EffectArea: {
@@ -831,7 +862,7 @@ export default {
             ShipSpawnPeriodMs: 1200,
             Model: "effectAreaPortal",
         },
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
+        SectorRange: 0,
     },
     Vortex: {
         Name: "Vortex",
@@ -842,6 +873,7 @@ export default {
         Hide: 1,
         Scene: {},
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 20,
         EffectArea: {
@@ -857,7 +889,6 @@ export default {
             Model: "effectAreaVortex",
         },
         SectorRange: 1,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     AttackBoost: {
         Name: "AttackBoost",
@@ -867,6 +898,7 @@ export default {
         Hide: 1,
         Scene: {},
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 30000,
         EffectArea: {
             Name: "AttackBoost",
@@ -882,7 +914,6 @@ export default {
             Model: "effectAreaAttackBoost",
         },
         SectorRange: 1,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     EMP: {
         Name: "EMP",
@@ -900,6 +931,7 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 20,
         EffectArea: {
@@ -915,7 +947,6 @@ export default {
             Model: "effectAreaEMP",
         },
         SectorRange: 1,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Carrier: {
         Name: "Carrier",
@@ -936,8 +967,10 @@ export default {
             EndTick: 500,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 60,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Carrier",
             Model: "fighter_Carrier",
@@ -961,6 +994,7 @@ export default {
                     Name: "Carrier",
                     InitialSpeed: 1200,
                     Damage: [500, 550, 605, 665, 731, 804, 884, 972, 1069, 1175],
+                    DamageRange: 0,
                     Model: "Carrier_Bullet",
                     LaunchFX: "projectiles/LaunchFx_01",
                     ImpactFX: "projectiles/ImpactFx_01",
@@ -982,7 +1016,6 @@ export default {
         FighterSpawnMs: 3000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     HydroBoost: {
         Name: "HydroBoost",
@@ -1000,8 +1033,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 60,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "HydroBoost",
             Model: "drone_HydroBoost",
@@ -1017,7 +1052,6 @@ export default {
         FighterSpawnMs: 2000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     FireflyFactory: {
         Name: "FireflyFactory",
@@ -1035,8 +1069,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 30,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "FireflyFactory",
             Model: "drone_fireflyFactory",
@@ -1046,6 +1082,7 @@ export default {
             MaxHealth: [2000, 2200, 2420, 2662, 2928, 3220, 3542, 3896, 4285, 4713],
             PrimaryWeapon: {
                 Name: "FireflyFactory",
+                FiringRange: 0,
                 FighterToLaunch: "Firefly",
                 FighterLaunchMs: 5000,
                 LaunchFighterWithoutTarget: 1,
@@ -1058,9 +1095,9 @@ export default {
             LifetimeMs: 25000,
             sfx_destroy: "sfx_small_explosion_01",
         },
+        FighterSpawnMs: 0,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     AreaShield: {
         Name: "AreaShield",
@@ -1080,6 +1117,7 @@ export default {
             EndTick: 350,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 30,
         EffectArea: {
@@ -1091,7 +1129,6 @@ export default {
             Model: "effectAreaAreaShield",
         },
         SectorRange: 1,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Colossus: {
         Name: "Colossus",
@@ -1111,8 +1148,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 50,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Colossus",
             Model: "fighter_Colossus",
@@ -1151,7 +1190,6 @@ export default {
         FighterSpawnMs: 4000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Spikes: {
         Name: "Spikes",
@@ -1173,6 +1211,7 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 60,
         SectorRange: 1,
@@ -1195,7 +1234,6 @@ export default {
         LaunchOffsets: "-200!0!200!0!0!200",
         NewGroupPerBS: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Decay: {
         Name: "Decay",
@@ -1213,6 +1251,7 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 40,
         EffectArea: {
@@ -1229,7 +1268,6 @@ export default {
             Model: "effectAreaHexDamage",
         },
         SectorRange: 1,
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     Destroyer: {
         Name: "Destroyer",
@@ -1247,8 +1285,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 5, 20, 50, 100, 200, 400, 700, 1000, 1500],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 70,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "Destroyer",
             Model: "fighter_Destroyer",
@@ -1287,7 +1327,6 @@ export default {
         FighterSpawnMs: 3000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     StealthTank: {
         Name: "StealthTank",
@@ -1309,8 +1348,10 @@ export default {
             EndTick: 400,
         },
         UnlockBlueprints: [1, 2, 4, 8, 15, 25, 50, 100, 150, 250],
+        CreditsCost: [0, 10, 20, 40, 80, 150, 300, 600, 1000, 1500],
         CooldownMs: 3000,
         HydrogenCost: 60,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "StealthTank",
             Model: "fighter_StealthTank",
@@ -1350,7 +1391,6 @@ export default {
         FighterSpawnMs: 4000,
         NumSpawnedFighters: 1,
         sfx_placed: "sfx_generic_fighter_bomber_spawn",
-        CreditsCost: [10, 20, 40, 80, 150, 300, 600, 1000, 1500],
     },
     GaiaFighter: {
         Name: "GaiaFighter",
@@ -1361,6 +1401,8 @@ export default {
         Rarity: 1,
         Hide: 1,
         CooldownMs: 999999999,
+        HydrogenCost: 0,
+        SectorRange: 0,
         FighterToSpawn: {
             Name: "GFighter",
             Model: "fighter_Gaia",
@@ -1383,6 +1425,7 @@ export default {
                     Name: "GProjectile",
                     InitialSpeed: 1000,
                     Damage: [300, 330, 363, 399, 438, 481, 529, 581, 639, 702],
+                    DamageRange: 0,
                     Model: "interceptor_MedBullet",
                     LaunchFX: "projectiles/LaunchFx_01",
                     ImpactFX: "projectiles/ImpactFx_01",
@@ -1398,6 +1441,7 @@ export default {
                     Name: "GaiaBullet",
                     InitialSpeed: 2000,
                     Damage: [12, 13, 14, 15, 16, 17, 18, 19, 20, 22],
+                    DamageRange: 0,
                     Model: "interceptor_MedBullet",
                     LaunchFX: "projectiles/LaunchFx_01",
                     ImpactFX: "projectiles/ImpactFx_01",
@@ -1406,11 +1450,13 @@ export default {
                 },
                 ProjectileLaunchMs: 250,
                 MaxTargets: 2,
+                TargetStealth: 0,
                 CanTargetFighters: 1,
             },
             TargetsBS: 1,
             PushLayer: 3,
         },
+        FighterSpawnMs: 0,
         NumSpawnedFighters: 1,
         FixedLaunchOffset: "0!-210",
     },
