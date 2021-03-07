@@ -16,7 +16,6 @@ const savePath = resolve('./dist');
  * @return {Promise<void>|Error}
  */
 export default function saveFile(raw, { type }) {
-    // const addData = addContent(json);
     const { data, metadata } = raw.render();
     const originalFile = parse(metadata.originalFile);
     const path = format({
@@ -34,7 +33,11 @@ export default function saveFile(raw, { type }) {
     if (!existsSync(dirname(path))) {
         mkdirSync(dirname(path));
     }
-    return writeFile2(path, prettier.format(formatting(data, metadata.runnerName), opts))
+    return writeFile2(path, prettier.format(
+        formatting(data, metadata.runnerName), {
+            ...opts,
+            ...raw.prettierConfig,
+        }))
         .then(() => {
             console.log('Файл', `"\x1b[32m${path}\x1b[0m"`, 'создан');
         })

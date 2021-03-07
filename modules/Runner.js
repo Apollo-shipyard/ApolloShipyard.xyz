@@ -23,7 +23,7 @@ export default class Runner {
     }
 
     newJson(...args) {
-        return new JsonRaw(...args);
+        return new JsonRaw(...args, this.args.metadata);
     }
 }
 

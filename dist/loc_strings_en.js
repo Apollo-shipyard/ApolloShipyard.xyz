@@ -16,15 +16,12 @@ export default {
     TID_RECONNECT: "RECONNECT",
     TID_CANCEL: "CANCEL",
     TID_CONNECTION_ERROR: "CONNECTION ERROR",
-    TID_CONNECTION_ERROR_REASON_NO_INTERNET:
-        "Unable to contact the server. Please check your internet connectivity and try again.",
+    TID_CONNECTION_ERROR_REASON_NO_INTERNET: "Unable to contact the server. Please check your internet connectivity and try again.",
     TID_CONNECTION_ERROR_UNKNOWN_ACCOUNT: "Unable to access your account. Please contact player support.",
-    TID_CONNECTION_ERROR_OLD_VERSION:
-        "A new version of the game is available! Download it now to get the latest features.",
+    TID_CONNECTION_ERROR_OLD_VERSION: "A new version of the game is available! Download it now to get the latest features.",
     TID_CONNECTION_ERROR_NEW_VERSION: "Incorrect version",
     TID_CONNECTION_ERROR_OLD_VERSION_DOWNLOAD_LINK: "Download Latest Version",
-    TID_CONNECTION_ERROR_OLD_VERSION_STEAM:
-        "Steam should auto-update to the latest version soon. If you keep getting this message, please check the game's update settings and re-launch Steam.",
+    TID_CONNECTION_ERROR_OLD_VERSION_STEAM: "Steam should auto-update to the latest version soon. If you keep getting this message, please check the game's update settings and re-launch Steam.",
     TID_CONNECTION_ERROR_SERVER_ERROR: "Internal server error. Please try again later.",
     TID_CONNECTION_ERROR_ACCOUNT_BANNED: "Your account has been banned.",
     TID_CONNECTION_ERROR_LOGGED_IN_ELSEWHERE: "You have logged in from another device.",
@@ -44,8 +41,7 @@ export default {
     TID_ENTER_STORE: "ENTER STORE",
     TID_MSG_QUIT_GAME: "Are you sure you want to exit the game?",
     TID_COMBAT_ERROR_MAINTENANCE: "Can't start new Combat search during planned maintenance.",
-    TID_SWITCH_TO_CONNECTED_ACCOUNT:
-        "Would you like to switch to your connected account? ({0}, level {1}). Progress in the current game will be lost.",
+    TID_SWITCH_TO_CONNECTED_ACCOUNT: "Would you like to switch to your connected account? ({0}, level {1}). Progress in the current game will be lost.",
     TID_T1_TITLE: "Launch Fighters to destroy the enemy Battleship.",
     TID_T2_TITLE: "Defend your Battleship with Bombers, and use Fireflies for a counter-attack.",
     TID_T3_TITLE: "Move your Battleship to stay clear of the red collapsing zone.",
@@ -54,15 +50,12 @@ export default {
     TID_DESTROY_SINGLE_BS: "Destroy the enemy Battleship.",
     TID_DESTROY_MULTI_BS: "Destroy all enemy Battleships.",
     TID_BS_ARTEMIS: "BATTLESHIP ARTEMIS",
-    TID_BS_ARTEMIS_DESCR:
-        "As the weakest Battleship in the Hades galaxy, ARTEMIS makes up with its agility and Hydrogen efficiency. Use its special Motion Shield ability to escape from close quarters combat against stronger Battleships.",
+    TID_BS_ARTEMIS_DESCR: "As the weakest Battleship in the Hades galaxy, ARTEMIS makes up with its agility and Hydrogen efficiency. Use its special Motion Shield ability to escape from close quarters combat against stronger Battleships.",
     TID_BS_APOLLO: "BATTLESHIP APOLLO",
-    TID_BS_APOLLO_DESCR:
-        "Apollo is a well rounded ship, offering a good balance between agility and strength. Its hangar bays regularly launch Fireflies that can assist in combat.",
+    TID_BS_APOLLO_DESCR: "Apollo is a well rounded ship, offering a good balance between agility and strength. Its hangar bays regularly launch Fireflies that can assist in combat.",
     TID_BS_ATHENA: "BATTLESHIP ATHENA",
     TID_BS_ARES: "BATTLESHIP ARES",
-    TID_BS_ARES_DESCR:
-        "ARES is a very strong but expensive to move Battleship. Its War Rage ability can change the outcome of combat if applied strategically at the right time.",
+    TID_BS_ARES_DESCR: "ARES is a very strong but expensive to move Battleship. Its War Rage ability can change the outcome of combat if applied strategically at the right time.",
     TID_BS_ABILITY: "COMMANDER ABILITY",
     TID_SELL_ITEM: "SELL",
     TID_BS_STAT_MODULE_SLOTS: "MODULE SLOTS",
@@ -76,30 +69,23 @@ export default {
     TID_BS_STAT_HYDRO_COST_PER_KM: "<style=hy_stat>{0}</style>/km",
     TID_BS_DAMAGE_REDUCT_MOVE: "DAMAGE REDUCTION",
     TID_BS_HADES: "BATTLESHIP HADES",
-    TID_BS_HADES_DESCR:
-        "A sleek ship that sacrifices Turret space for a large Resurrection Bay that gives destroyed fighters a second chance in combat.",
+    TID_BS_HADES_DESCR: "A sleek ship that sacrifices Turret space for a large Resurrection Bay that gives destroyed fighters a second chance in combat.",
     TID_BS_KRONOS: "BATTLESHIP KRONOS",
-    TID_BS_KRONOS_DESCR:
-        "Infused with poorly understood Cerberus technology, Kronos is a unique ship with sharp strengths and weaknesses. Its Time drive periodically creates a big combat advantage in the area directly in front of the ship.",
+    TID_BS_KRONOS_DESCR: "Infused with poorly understood Cerberus technology, Kronos is a unique ship with sharp strengths and weaknesses. Its Time drive periodically creates a big combat advantage in the area directly in front of the ship.",
     TID_BS_ABILITY_ATTACK_BOOST: "WAR RAGE",
-    TID_BS_ABILITY_ATTACK_BOOST_DESCR:
-        "When manually activated, ARES creates an effect area that increases firing rate for all friendly Fighters and Battleship Turrets inside it.",
+    TID_BS_ABILITY_ATTACK_BOOST_DESCR: "When manually activated, ARES creates an effect area that increases firing rate for all friendly Fighters and Battleship Turrets inside it.",
     TID_BS_ABILITY_HANGAR_BAYS: "HANGAR BAYS",
     TID_BS_ABILITY_HANGAR_BAYS_DESCR: "The Battleship will regularly launch pairs of Fireflies.",
     TID_BS_ABILITY_MOTION_SHIELD: "MOTION SHIELD",
     TID_BS_ABILITY_MOTION_SHIELD_DESCR: "The Battleship will receive reduced damage while moving.",
     TID_BS_ABILITY_RESURRECTION: "RESURRECTION BAY",
-    TID_BS_ABILITY_RESURRECTION_DESCR:
-        "While the Resurrection bay on Battleship Hades is active, any destroyed fighter previously launched by the ship, anywhere on the map, will respawn on the Bay and have a small amount of Hitpoints restored. Any single fighter can only be respawned once.",
+    TID_BS_ABILITY_RESURRECTION_DESCR: "While the Resurrection bay on Battleship Hades is active, any destroyed fighter previously launched by the ship, anywhere on the map, will respawn on the Bay and have a small amount of Hitpoints restored. Any single fighter can only be respawned once.",
     TID_BS_ABILITY_GFIGHTER: "GAIA FIGHTER",
-    TID_BS_ABILITY_GFIGHTER_DESCR:
-        "When manually activated, part of the Battleship breaks off and behaves as an independent strong Fighter.\\n\\nThe Gaia Fighter directly attacks enemy Battleships, but will also fire against enemy Fighters on its way.",
+    TID_BS_ABILITY_GFIGHTER_DESCR: "When manually activated, part of the Battleship breaks off and behaves as an independent strong Fighter.\\n\\nThe Gaia Fighter directly attacks enemy Battleships, but will also fire against enemy Fighters on its way.",
     TID_BS_KRONOS_WARP: "TIME DRIVE",
-    TID_BS_KRONOS_WARP_DESCR:
-        "The structure in front of Battleship KRONOS will periodically activate, creating an effect field around the ship that slows down movement speed and firing rate for all enemy fighters and enemy Battleship turrets in range.",
+    TID_BS_KRONOS_WARP_DESCR: "The structure in front of Battleship KRONOS will periodically activate, creating an effect field around the ship that slows down movement speed and firing rate for all enemy fighters and enemy Battleship turrets in range.",
     TID_BS_GAIA: "BATTLESHIP GAIA",
-    TID_BS_GAIA_DESCR:
-        "This strong and relatively agile Battleship can tactically choose when to release its attached, powerful fighter to assist in combat.",
+    TID_BS_GAIA_DESCR: "This strong and relatively agile Battleship can tactically choose when to release its attached, powerful fighter to assist in combat.",
     TID_BS_HANGAR_BAY_PERIOD: "LAUNCH PERIOD",
     TID_BS_RESURRECT_HEALTH: "RESURRECTED HEALTH",
     TID_BS_HANGAR_BAY_LEVEL: "FIREFLY LEVEL",
@@ -117,10 +103,8 @@ export default {
     TID_CURRENT_TEAMMATE: "TEAMMATE:",
     TID_WAIT_TIME: "Estimated wait time: ",
     TID_CONFIRM_POPUP: "CONFIRMATION",
-    TID_CREDITS_HINT:
-        "<style=credits_shadow>Credits</style> can be used to upgrade Modules and Turrets, and to buy other offers.\\n\\nMaximum credits amount that can be stored: <style=credits_shadow>500 000</style>",
-    TID_CRYSTALS_HINT:
-        "<style=crystals_shadow>Crystals</style> can be used to buy Credits, Artifacts and other rare offers.",
+    TID_CREDITS_HINT: "<style=credits_shadow>Credits</style> can be used to upgrade Modules and Turrets, and to buy other offers.\\n\\nMaximum credits amount that can be stored: <style=credits_shadow>500 000</style>",
+    TID_CRYSTALS_HINT: "<style=crystals_shadow>Crystals</style> can be used to buy Credits, Artifacts and other rare offers.",
     TID_ADD_CREDITS: "ADD CREDITS",
     TID_ADD_CRYSTALS: "ADD CRYSTALS",
     TID_MODULE_SLOT_NAME: "MODULE {0}",
@@ -145,8 +129,7 @@ export default {
     TID_PLAYER_DETAILS_DEMOTE: "Demote",
     TID_PLAYER_DETAILS_KICK: "Kick",
     TID_PLAYER_DETAILS_CONFIRM_KICK: "Are you sure you want to kick {0} out of the Corporation?",
-    TID_PLAYER_DETAILS_PROMOTE_TO_LEADER:
-        "Would you like to make {0} the new First Officer? You will become an Officer.",
+    TID_PLAYER_DETAILS_PROMOTE_TO_LEADER: "Would you like to make {0} the new First Officer? You will become an Officer.",
     TID_PLAYER_DETAILS_PROMOTE_MSG: "You have promoted {0}",
     TID_PLAYER_DETAILS_DEMOTE_MSG: "You have demoted {0}",
     TID_DIALOG_RENAME_TURRET: "RENAME TURRET",
@@ -170,10 +153,8 @@ export default {
     TID_ARTIFACT_GIANT: "GIANT ARTIFACT",
     TID_ARTIFACT_EPIC: "EPIC ARTIFACT",
     TID_ARTIFACT_VISION: "VISION ARTIFACT",
-    TID_ARTIFACT_HINT:
-        "Artifacts can be gained from Research, or purchased from here. When opened, Artifacts will yield Blueprints that can be used to discover or upgrade Modules.",
-    TID_BATTLESHIPS_HINT:
-        "Additional Battleships can be purchased from here. Once purchased, they will immediately appear in your Shipyard.",
+    TID_ARTIFACT_HINT: "Artifacts can be gained from Research, or purchased from here. When opened, Artifacts will yield Blueprints that can be used to discover or upgrade Modules.",
+    TID_BATTLESHIPS_HINT: "Additional Battleships can be purchased from here. Once purchased, they will immediately appear in your Shipyard.",
     TID_PURCHASING_FAILED_DISABLED: "Purchases are disabled from your device's restrictions settings.",
     TID_PURCHASING_FAILED_NO_PRODUCTS_FOUND: "Purchases unavailable: No products found.",
     TID_PURCHASING_FAILED_UNKNOWN_GAME: "Purchases unavailable: App not known.",
@@ -187,8 +168,7 @@ export default {
     TID_PURCHASE_FAIL_USERCANCELLED: "Purchase failed: Cancelled by user.",
     TID_PURCHASE_FAIL_UNKNOWN: "Purchase failed: Unknown reason.",
     TID_PURCHASE_STEAM_NO_OVERLAY: "Purchases require the Steam overlay to be enabled.",
-    TID_CONNECTION_ERROR_STEAM_NOT_RUNNING:
-        "Unable to authenticate with Steam. Please launch the game from within Steam and make sure you are connected to the internet.",
+    TID_CONNECTION_ERROR_STEAM_NOT_RUNNING: "Unable to authenticate with Steam. Please launch the game from within Steam and make sure you are connected to the internet.",
     TID_PURCHASE_OFFER_EXPIRED: "This offer has expired.",
     TID_PURCHASES_DISABLED: "In-App Purchases are disabled during Early Access.",
     TID_CRYSTAL_PACK: "CRYSTAL PACK",
@@ -208,12 +188,10 @@ export default {
     TID_PURCHASE_SUCCESSFUL: "The purchase has been successfully added to your game.",
     TID_RESEARCH_PROGRESS_LABEL: "RESEARCH PROGRESS",
     TID_RESEARCH_REWARD_HINT: "Fill the Research Bar to unlock this reward.",
-    TID_RESEARCH_PROGRESS_HINT:
-        "The Research Bar indicates your progress toward the next research reward. Earn Research Points from Combat missions to fill the bar. Advance to higher Zones to improve research rewards.",
+    TID_RESEARCH_PROGRESS_HINT: "The Research Bar indicates your progress toward the next research reward. Earn Research Points from Combat missions to fill the bar. Advance to higher Zones to improve research rewards.",
     TID_RESEARCH_REWARDS: "RESEARCH REWARDS",
     TID_DISCOVERED_MODULES: "DISCOVERED MODULES",
-    TID_DISCOVERED_MODULES_HINT:
-        "These are the Modules you have already discovered and can equip on your Battleships. Collect more Blueprints for these modules to upgrade them.",
+    TID_DISCOVERED_MODULES_HINT: "These are the Modules you have already discovered and can equip on your Battleships. Collect more Blueprints for these modules to upgrade them.",
     TID_DISCOVERED_TURRETS: "OWNED TURRETS",
     TID_DISCOVERED_TURRETS_HINT: "These are the Turrets you own and have not been bound to any Battleship yet.",
     TID_OWNED_BOOSTS: "OWNED BOOSTS",
@@ -240,24 +218,18 @@ export default {
     TID_TURRETS_SORT_BY_DPS: "Sorted by Damage Per Second",
     TID_MODULE_TYPE: "TYPE",
     TID_MODULE_TYPE_FIGHTER: "FIGHTER",
-    TID_MODULE_TYPE_FIGHTER_DESCR:
-        "Fighter modules spawn one or more smaller ships near your Battleship. The ships fly independently, usually attacking their closest valid target.",
+    TID_MODULE_TYPE_FIGHTER_DESCR: "Fighter modules spawn one or more smaller ships near your Battleship. The ships fly independently, usually attacking their closest valid target.",
     TID_MODULE_TYPE_AOE: "EFFECT AREA",
-    TID_MODULE_TYPE_AOE_DESCR:
-        "Effect Area modules create a temporary region that applies an effect to the ships inside. Use them at the right time and location to help friendly ships, or hinder enemy ships.",
+    TID_MODULE_TYPE_AOE_DESCR: "Effect Area modules create a temporary region that applies an effect to the ships inside. Use them at the right time and location to help friendly ships, or hinder enemy ships.",
     TID_MODULE_TYPE_STRUCTURE: "STRUCTURE",
-    TID_MODULE_TYPE_STRUCTURE_DESCR:
-        "This module creates a temporary Structure at a fixed location near the Battleship. Fighters that attack the Battleship directly will first target any Structures on their way. Structures lose HP constantly over time, and taking damage reduces their lifetime faster.",
+    TID_MODULE_TYPE_STRUCTURE_DESCR: "This module creates a temporary Structure at a fixed location near the Battleship. Fighters that attack the Battleship directly will first target any Structures on their way. Structures lose HP constantly over time, and taking damage reduces their lifetime faster.",
     TID_MODULE_RARITY: "RARITY",
     TID_MODULE_RARITY_0: "COMMON",
     TID_MODULE_RARITY_1: "RARE",
-    TID_MODULE_COMMON_RARITY_DESCR:
-        "Blueprints for Common modules will be found regularly and predictably, after you reach the Module's Zone.",
-    TID_MODULE_RARE_RARITY_DESCR:
-        "Rare modules offer more exotic abilities that increase your tactical options in combat. Blueprints for these modules are harder to come by, making them slower to upgrade than Common modules.",
+    TID_MODULE_COMMON_RARITY_DESCR: "Blueprints for Common modules will be found regularly and predictably, after you reach the Module's Zone.",
+    TID_MODULE_RARE_RARITY_DESCR: "Rare modules offer more exotic abilities that increase your tactical options in combat. Blueprints for these modules are harder to come by, making them slower to upgrade than Common modules.",
     TID_MODULE_BLUEPRINTS: "BLUEPRINTS",
-    TID_MODULE_BLUEPRINTS_DESCR:
-        "Collect Blueprints to allow upgrading this Module to the next level. Blueprints can be earned by opening Artifacts awarded from Research.",
+    TID_MODULE_BLUEPRINTS_DESCR: "Collect Blueprints to allow upgrading this Module to the next level. Blueprints can be earned by opening Artifacts awarded from Research.",
     TID_MODULE_STAT_HP: "HITPOINTS",
     TID_MODULE_STAT_NUM_FIGHTERS: "FIGHTERS SPAWNED",
     TID_MODULE_STAT_DPS: "DAMAGE PER SECOND",
@@ -289,11 +261,9 @@ export default {
     TID_MODULE_STAT_DEATH_FX_DAMAGE: "BOMB DAMAGE",
     TID_TURRET_DLG_TITLE: "TURRET DETAILS",
     TID_TURRET_QUALITY: "QUALITY LEVEL",
-    TID_TURRET_QUALITY_DESCR:
-        "Turret Quality level ranges from 1 to 5. Higher quality Turrets have their stats improve faster on each Fusion Upgrade, and can gain more Secondary stats.",
+    TID_TURRET_QUALITY_DESCR: "Turret Quality level ranges from 1 to 5. Higher quality Turrets have their stats improve faster on each Fusion Upgrade, and can gain more Secondary stats.",
     TID_TURRET_UPGRADE_LEVEL: "FUSION LEVEL",
-    TID_TURRET_UPGRADE_LEVEL_DESCR:
-        "Fusion is an unstable process that causes the Turret's primary and secondary stats to randomly improve. Certain Fusion levels will add additional secondary stats.\\n\\nUpgrading a Turret via Fusion requires consuming other unwanted Turrets in your inventory.\\n\\nA Turret can only go through the Fusion process 10 times.",
+    TID_TURRET_UPGRADE_LEVEL_DESCR: "Fusion is an unstable process that causes the Turret's primary and secondary stats to randomly improve. Certain Fusion levels will add additional secondary stats.\\n\\nUpgrading a Turret via Fusion requires consuming other unwanted Turrets in your inventory.\\n\\nA Turret can only go through the Fusion process 10 times.",
     TID_TURRET_MAX_LEVEL: "MAX FUSION LEVEL REACHED",
     TID_TURRET_TYPE: "FIRE TYPE",
     TID_TURRET_TYPE_PROJECTILE: "PROJECTILE",
@@ -302,22 +272,17 @@ export default {
     TID_TURRET_TYPE_PROJECTILE_POPUP: "PROJECTILE TURRET",
     TID_TURRET_TYPE_ROCKET_POPUP: "ROCKET TURRET",
     TID_TURRET_TYPE_BEAM_POPUP: "BEAM TURRET",
-    TID_TURRET_TYPE_PROJECTILE_DESCR:
-        "This type of Turret regularly fires a non-targetable projectile against their single target.",
-    TID_TURRET_TYPE_ROCKET_DESCR:
-        "Rocket turrets regularly fire a rocket towards their single target. The rocket can be targeted by enemy Fighters and Battleships using regular targeting rules.\\n\\nRockets are long-range weapons. This turret type will not fire against short range targets.\\n\\nIf the target is destroyed while the Rocket is in flight, the Rocket is destroyed without doing any damage.",
-    TID_TURRET_TYPE_BEAM_DESCR:
-        "Beam turrets will apply constant damage to the first target they pick in range, until the target is destroyed or leaves the turret's range. The damage will ramp up while the beam is locked onto a single target. Beam turrets will temporarily stop firing while they are switching targets.",
+    TID_TURRET_TYPE_PROJECTILE_DESCR: "This type of Turret regularly fires a non-targetable projectile against their single target.",
+    TID_TURRET_TYPE_ROCKET_DESCR: "Rocket turrets regularly fire a rocket towards their single target. The rocket can be targeted by enemy Fighters and Battleships using regular targeting rules.\\n\\nRockets are long-range weapons. This turret type will not fire against short range targets.\\n\\nIf the target is destroyed while the Rocket is in flight, the Rocket is destroyed without doing any damage.",
+    TID_TURRET_TYPE_BEAM_DESCR: "Beam turrets will apply constant damage to the first target they pick in range, until the target is destroyed or leaves the turret's range. The damage will ramp up while the beam is locked onto a single target. Beam turrets will temporarily stop firing while they are switching targets.",
     TID_CONFIRM_TURRET_FUSION: "Upgrade this Turret to the next Fusion level?",
     TID_TURRET_AVERAGE_DPS: "AVERAGE DAMAGE PER SECOND",
     TID_TURRET_AVERAGE_DPS_VS_STEALTHED: "VS Stealthed",
     TID_TURRET_AVERAGE_DPS_VS_UNSTEALTHED: "VS Unstealthed",
     TID_PRIMARY_STAT: "PRIMARY STAT",
-    TID_PRIMARY_STAT_DESCR:
-        "The Primary Stat is the defining characteristic of this Turret. Each additional Fusion level will increase this stat the most.",
+    TID_PRIMARY_STAT_DESCR: "The Primary Stat is the defining characteristic of this Turret. Each additional Fusion level will increase this stat the most.",
     TID_SECONDARY_STATS: "SECONDARY STATS",
-    TID_SECONDARY_STATS_DESCR:
-        "Secondary Stats are added randomly on certain Fusion levels. The Secondary Stats will also increase on each new fusion level, but at a smaller rate than the Primary Stat.",
+    TID_SECONDARY_STATS_DESCR: "Secondary Stats are added randomly on certain Fusion levels. The Secondary Stats will also increase on each new fusion level, but at a smaller rate than the Primary Stat.",
     TID_TURRET_STAT_0: "MAX FIRING RANGE",
     TID_TURRET_STAT_1: "FIRING PERIOD",
     TID_TURRET_STAT_2: "FIRING ARC",
@@ -340,8 +305,7 @@ export default {
     TID_TURRET_DO_UPGRADE: "FUSION UPGRADE",
     TID_TURRET_UPGRADE_NOT_ENOUGH_MATERIALS: "You must fill all Fusion slots with other Turrets to be consumed.",
     TID_TURRET_FUSION_TOO_LOW_QUALITY: "This Fusion slot requires a Turret with quality level {0}.",
-    TID_TURRET_FUSION_TOO_HIGH_QUALITY:
-        "This Fusion slot requires a Turret with quality level {0}, but you are adding a higher quality Turret. Are you sure you want to proceed?",
+    TID_TURRET_FUSION_TOO_HIGH_QUALITY: "This Fusion slot requires a Turret with quality level {0}, but you are adding a higher quality Turret. Are you sure you want to proceed?",
     TID_TURRET_UPGRADE_POPUP_PRIMARY_STAT: "PRIMARY STAT",
     TID_TURRET_UPGRADE_POPUP_SECONDARY_STAT_EXISTING: "SECONDARY STAT",
     TID_TURRET_UPGRADE_POPUP_SECONDARY_STAT_NEW: "NEW SECONDARY STAT ADDED",
@@ -366,8 +330,7 @@ export default {
     TID_NO_TURRETS_MSG: "You do not have any Turrets in storage.",
     TID_NO_BOOSTS_MSG: "You do not have any Boosts in storage.",
     TID_MODULE_AVG_COST: "Average Hydrogen Cost: {0}",
-    TID_CONFIRM_OLD_CAMPAIGN:
-        "You have already finished this level. You can play it again, but you will not gain any rewards.",
+    TID_CONFIRM_OLD_CAMPAIGN: "You have already finished this level. You can play it again, but you will not gain any rewards.",
     TID_BTN_REPLACE_TURRET: "REPLACE",
     TID_BTN_UNBIND_TURRET: "UNBIND",
     TID_TURRET_DAMAGE_INDICATOR: "DAMAGE: ",
@@ -376,8 +339,7 @@ export default {
     TID_CONFIRM_TURRET_UNBIND: "Are you sure you want to unbind the Turret from this slot?",
     TID_PICK_TURRET: "SELECT TURRET",
     TID_PICK_TURRET_FOR_FUSION: "SELECT TURRET TO CONSUME",
-    TID_BIND_TURRET_CONFIRM:
-        "Are you sure you want to bind this Turret on this Battleship slot? You will need to pay a Credits fee if you later choose to unbind the Turret.",
+    TID_BIND_TURRET_CONFIRM: "Are you sure you want to bind this Turret on this Battleship slot? You will need to pay a Credits fee if you later choose to unbind the Turret.",
     TID_BIND_TURRET_ERR_MUST_UNBIND: "You must unbind the existing Turret at that slot first.",
     TID_SELECT_TURRET_BIND_SLOT: "SELECT A SLOT TO BIND THIS TURRET.",
     TID_SELECT_CONSUME_BOOST_TURRET: "SELECT A TURRET TO CONSUME THIS BOOST.",
@@ -394,8 +356,7 @@ export default {
     TID_SHIP_LEVEL: "LEVEL",
     TID_SHIP_RANK_POPUP_TEXT: "Win Combat matches with this Battleship to increase its Influence.",
     TID_SHIP_RANK_POPUP_GOAL: "Reach {0} Influence to achieve next Influence Rank and earn {1} Research Points.",
-    TID_DAILY_RP_POPUP:
-        "Amount of Research Points that you can earn from Combat today.\\n\\nResearch Points unlock rewards on the Technology page.",
+    TID_DAILY_RP_POPUP: "Amount of Research Points that you can earn from Combat today.\\n\\nResearch Points unlock rewards on the Technology page.",
     TID_CANT_UPGRADE_BS_MAX: "This Battleship is already at the maximum upgrade level.",
     TID_CANT_UPGRADE_NOT_ENOUGH_XP: "You must fill the Ship XP bar before you can upgrade this Battleship.",
     TID_TAB_FIND_CORP: "FIND",
@@ -459,8 +420,7 @@ export default {
     TID_INACTIVITY_TOLERANCE_DESCR: "Inactivity Tolerance: {0}d",
     TID_ALLIANCE_ITEM_MEMBERS_COUNT: "{0} members",
     TID_INACTIVITY_TOLERANCE_NONE: "Allow Any Inactivity",
-    TID_INACTIVITY_RESET_WARNING:
-        "Changing the Inactivity Tolerance setting to a more strict value will reset the inactivity timer for all members of the Corporation. Do you want to continue?",
+    TID_INACTIVITY_RESET_WARNING: "Changing the Inactivity Tolerance setting to a more strict value will reset the inactivity timer for all members of the Corporation. Do you want to continue?",
     TID_CORP_EMBLEM_LABEL: "EMBLEM",
     TID_CORP_TYPE_OPEN: "Open to all",
     TID_CORP_TYPE_REQUEST: "Join by request",
@@ -478,13 +438,10 @@ export default {
     TID_PLAYER_INFO_DLG: "PLAYER DETAILS",
     TID_FEATURED_SHIP: "FEATURED BATTLESHIP",
     TID_PLAYER_XP_LEVEL: "Player Level {0}",
-    TID_XP_HINT:
-        "<style=xp_shadow>Player Level</style> indicates how long a player has been active in Combat.\\n\\nParticipate in Combat to gain XP and make progress towards the next Player Level. Victories will earn the most XP.",
-    TID_TOTAL_INFLUENCE_HINT:
-        "<style=influence_shadow>Player Influence</style> indicates a player's success in Combat. Influence can be earned in Victory, but can also be lost in Defeat.\\n\\nA player's total Influence is the sum of the Influence of each Battleship owned by the player.",
+    TID_XP_HINT: "<style=xp_shadow>Player Level</style> indicates how long a player has been active in Combat.\\n\\nParticipate in Combat to gain XP and make progress towards the next Player Level. Victories will earn the most XP.",
+    TID_TOTAL_INFLUENCE_HINT: "<style=influence_shadow>Player Influence</style> indicates a player's success in Combat. Influence can be earned in Victory, but can also be lost in Defeat.\\n\\nA player's total Influence is the sum of the Influence of each Battleship owned by the player.",
     TID_EVENTS_HS_TITLE: "AVAILABLE NOW: HADES' STAR",
-    TID_EVENTS_HS_INFO:
-        "Play the original game that launched the Hades universe. Build your own space empire, watch it grow over the years and participate in always evolving trade, mining and combat operations.",
+    TID_EVENTS_HS_INFO: "Play the original game that launched the Hades universe. Build your own space empire, watch it grow over the years and participate in always evolving trade, mining and combat operations.",
     TID_DOWNLOAD_HS: "DOWNLOAD HADES' STAR",
     TID_NEWS_TITLE: "NEWS",
     TID_LIVE_MATCHES: "LIVE MATCHES",
@@ -501,58 +458,43 @@ export default {
     TID_MOD_FIREFLY: "FIREFLIES",
     TID_MOD_FIREFLY_DESCR: "A pair of small, weak fighters. Can be dangerous in high numbers.",
     TID_MOD_FIREFLY_STEALTH: "STEALTH FIREFLY",
-    TID_MOD_FIREFLY_STEALTH_DESCR:
-        "The stealth version of Firefly. Can only be targeted by Battleships or Fighters that have stealth weapons.",
+    TID_MOD_FIREFLY_STEALTH_DESCR: "The stealth version of Firefly. Can only be targeted by Battleships or Fighters that have stealth weapons.",
     TID_MOD_ARROW: "ARROW",
-    TID_MOD_ARROW_DESCR:
-        "Spawns a single Arrow at the activation position. The Arrow fighter will move directly towards the closest enemy Battleship, ignoring other enemy Fighters on its way. Its long range weapon may allow it to strike without retaliation for certain angles and against certain Battleships.",
+    TID_MOD_ARROW_DESCR: "Spawns a single Arrow at the activation position. The Arrow fighter will move directly towards the closest enemy Battleship, ignoring other enemy Fighters on its way. Its long range weapon may allow it to strike without retaliation for certain angles and against certain Battleships.",
     TID_MOD_ARROW_FACTORY: "ARROW FACTORY",
     TID_MOD_ARROW_FACTORY_DESCR: "Produces Arrow fighters over its lifetime.",
     TID_MOD_FIREFLY_SQUAD: "FIREFLY SQUAD",
     TID_MOD_FIREFLY_SQUAD_DESCR: "A group of Firefly fighters that spawn closely together.",
     TID_MOD_BOMBER: "BOMBER",
-    TID_MOD_BOMBER_DESCR:
-        "The Bomber's weapon does splash damage on impact, making it ideal for dealing with large numbers of weak fighters.",
+    TID_MOD_BOMBER_DESCR: "The Bomber's weapon does splash damage on impact, making it ideal for dealing with large numbers of weak fighters.",
     TID_MOD_GHOST: "GHOST",
-    TID_MOD_GHOST_DESCR:
-        "A medium strength stealthed Fighter. Can only be targeted by Battleships or Fighters that have stealth weapons.",
+    TID_MOD_GHOST_DESCR: "A medium strength stealthed Fighter. Can only be targeted by Battleships or Fighters that have stealth weapons.",
     TID_MOD_INTERCEPTOR: "INTERCEPTOR",
-    TID_MOD_INTERCEPTOR_DESCR:
-        "With 4 rapid Batteries, the Interceptor can quickly cut through hordes of small fighters. Only one of its Batteries can lock on a single enemy target, making the Interceptor weaker on 1 vs 1 combat.",
+    TID_MOD_INTERCEPTOR_DESCR: "With 4 rapid Batteries, the Interceptor can quickly cut through hordes of small fighters. Only one of its Batteries can lock on a single enemy target, making the Interceptor weaker on 1 vs 1 combat.",
     TID_MOD_TITAN: "TITAN",
-    TID_MOD_TITAN_DESCR:
-        "A very strong Fighter with a powerful weapon that takes a long time to recharge but deals massive area damage.",
+    TID_MOD_TITAN_DESCR: "A very strong Fighter with a powerful weapon that takes a long time to recharge but deals massive area damage.",
     TID_MOD_COLOSSUS: "COLOSSUS",
-    TID_MOD_COLOSSUS_DESCR:
-        "This high HP fighter attacks enemy Battleships directly. It can shield weaker ships behind it, and do decent damage on its own.",
+    TID_MOD_COLOSSUS_DESCR: "This high HP fighter attacks enemy Battleships directly. It can shield weaker ships behind it, and do decent damage on its own.",
     TID_MOD_EMP: "EMP",
-    TID_MOD_EMP_DESCR:
-        "Stuns all enemy Fighters and Battleship Turrets in the effect range. Stunned ships cannot move or fire. They also have their target reset.",
+    TID_MOD_EMP_DESCR: "Stuns all enemy Fighters and Battleship Turrets in the effect range. Stunned ships cannot move or fire. They also have their target reset.",
     TID_MOD_CYCLOPS: "CYCLOPS",
-    TID_MOD_CYCLOPS_DESCR:
-        "Spawns a strong Fighter with a laser weapon that does more damage the more it stays locked on a single target. The laser's charge will be reset when it switches targets.",
+    TID_MOD_CYCLOPS_DESCR: "Spawns a strong Fighter with a laser weapon that does more damage the more it stays locked on a single target. The laser's charge will be reset when it switches targets.",
     TID_MOD_REMOTE_REPAIR: "REMOTE REPAIR",
-    TID_MOD_REMOTE_REPAIR_DESCR:
-        "Restores health over time for all friendly Fighters and Battleships within its range.",
+    TID_MOD_REMOTE_REPAIR_DESCR: "Restores health over time for all friendly Fighters and Battleships within its range.",
     TID_MOD_METEORSHOWER: "METEORS",
-    TID_MOD_METEORSHOWER_DESCR:
-        "Does a small amount of damage to all enemy Fighters and Battleships within the effect area. Very useful against hordes of weak Fighters.",
+    TID_MOD_METEORSHOWER_DESCR: "Does a small amount of damage to all enemy Fighters and Battleships within the effect area. Very useful against hordes of weak Fighters.",
     TID_MOD_IONBLAST: "ION BLAST",
-    TID_MOD_IONBLAST_DESCR:
-        "Applies a large amount of damage to all enemy Fighters and Factories within the effect area. Significantly reduced damage against Battleships and Bases.",
+    TID_MOD_IONBLAST_DESCR: "Applies a large amount of damage to all enemy Fighters and Factories within the effect area. Significantly reduced damage against Battleships and Bases.",
     TID_MOD_NUCLEARBOMB: "NUCLEAR BOMB",
-    TID_MOD_NUCLEARBOMB_DESCR:
-        "A very powerful bomb that does massive area damage to all enemy Fighters and Battleships inside the small impact area. Can be targeted anywhere on the map.",
+    TID_MOD_NUCLEARBOMB_DESCR: "A very powerful bomb that does massive area damage to all enemy Fighters and Battleships inside the small impact area. Can be targeted anywhere on the map.",
     TID_MOD_PORTAL: "PORTAL",
     TID_MOD_PORTAL_DESCR: "Constantly spawns Firefly Fighters while the effect is active.",
     TID_MOD_VORTEX: "VORTEX",
     TID_MOD_VORTEX_DESCR: "Pulls all enemy Fighters to the center of the effect area.",
     TID_MOD_CARRIER: "CARRIER",
-    TID_MOD_CARRIER_DESCR:
-        "The Carrier will periodically launch Firefly fighters. The Fireflies along with the Carrier's strong, single-target weapon create a formidable combination.",
+    TID_MOD_CARRIER_DESCR: "The Carrier will periodically launch Firefly fighters. The Fireflies along with the Carrier's strong, single-target weapon create a formidable combination.",
     TID_MOD_HYDRO_BOOST: "HYDROGEN FACTORY",
-    TID_MOD_HYDRO_BOOST_DESCR:
-        "Periodically produces Hydrogen over its lifetime. The produced Hydrogen is instantly transferred to Battleship that placed the factory.",
+    TID_MOD_HYDRO_BOOST_DESCR: "Periodically produces Hydrogen over its lifetime. The produced Hydrogen is instantly transferred to Battleship that placed the factory.",
     TID_MOD_FIREFLY_FACTORY: "FIREFLY FACTORY",
     TID_MOD_FIREFLY_FACTORY_DESCR: "Launches pairs of Firefly fighters over its lifetime.",
     TID_MOD_GHOST_FACTORY: "GHOST FACTORY",
@@ -560,14 +502,11 @@ export default {
     TID_MOD_MASS_BATTERY: "MASS BATTERY",
     TID_MOD_MASS_BATTERY_DESCR: "A multiple target weapon.",
     TID_MOD_AREA_SHIELD: "AREA SHIELD",
-    TID_MOD_AREA_SHIELD_DESCR:
-        "Absorbs all damage done against any friendly ships in the target area. The shield loses power over time, and when it absorbs damage.",
+    TID_MOD_AREA_SHIELD_DESCR: "Absorbs all damage done against any friendly ships in the target area. The shield loses power over time, and when it absorbs damage.",
     TID_MOD_DESTROYER: "DESTROYER",
-    TID_MOD_DESTROYER_DESCR:
-        "Spawns a fast, strong and agile ship. When destroyed, it will leave a Nuclear Bomb at its final position. The bomb will cause massive area damage to all enemy ships in range a few seconds later.",
+    TID_MOD_DESTROYER_DESCR: "Spawns a fast, strong and agile ship. When destroyed, it will leave a Nuclear Bomb at its final position. The bomb will cause massive area damage to all enemy ships in range a few seconds later.",
     TID_MOD_DECAY: "DECAY",
-    TID_MOD_DECAY_DESCR:
-        "Creates a decay area at the target location. All enemy ships caught inside the area will suffer constant damage and reduced firing speed.",
+    TID_MOD_DECAY_DESCR: "Creates a decay area at the target location. All enemy ships caught inside the area will suffer constant damage and reduced firing speed.",
     TID_2VS2: "2 VS 2",
     TID_FFA: "FREE FOR ALL",
     TID_DESTROY_ENEMY_BS: "Destroy all enemy Battleships.",
@@ -603,8 +542,7 @@ export default {
     TID_ENEMY_TEAM_SCORE: "ENEMY TEAM",
     TID_ENDGAME_BUTTON_EXIT: "EXIT",
     TID_ENDGAME_BUTTON_RETRY: "RETRY",
-    TID_POPUP_REWARD_ARTIFACT:
-        "Artifacts are awarded after success in combat. Once researched, they will yield valuable resources that can be used to upgrade your Battleships and Modules.",
+    TID_POPUP_REWARD_ARTIFACT: "Artifacts are awarded after success in combat. Once researched, they will yield valuable resources that can be used to upgrade your Battleships and Modules.",
     TID_QUIT_MATCH_CONFIRM: "Are you sure you want to exit this level?",
     TID_SIEGE_STAGE_ATTACK: "Level {0} Fighter army spawning on your side.",
     TID_SIEGE_STAGE_DEFEND: "Level {0} Fighter army spawning on enemy side.",
@@ -636,14 +574,11 @@ export default {
     TID_REPLAY_PAUSE_EXIT: "EXIT",
     TID_REPLAY_TIME_LEFT: "Ends in: ",
     TID_EVENT_TITLE_3VS3: "3 VS 3",
-    TID_EVENT_DESCR_3VS3:
-        "Team up with 2 additional players to take out the enemy team. First team to destroy all 3 enemy Battleships wins.",
+    TID_EVENT_DESCR_3VS3: "Team up with 2 additional players to take out the enemy team. First team to destroy all 3 enemy Battleships wins.",
     TID_EVENT_TITLE_SURVIVAL: "SURVIVAL",
-    TID_EVENT_DESCR_SURVIVAL:
-        "Be the last of 20 Battleships to survive in a massive battle where everyone plays for themselves.",
+    TID_EVENT_DESCR_SURVIVAL: "Be the last of 20 Battleships to survive in a massive battle where everyone plays for themselves.",
     TID_EVENT_TITLE_DART_BARRAGE: "DART BARRAGE",
-    TID_EVENT_DESCR_DART_BARRAGE:
-        "Dart Launchers will spawn regularly at the center of the map. Each spawned Dart Launcher will attack the closest Battleship.",
+    TID_EVENT_DESCR_DART_BARRAGE: "Dart Launchers will spawn regularly at the center of the map. Each spawned Dart Launcher will attack the closest Battleship.",
     TID_EVENT_TITLE_1VS3: "1 VS 3",
     TID_EVENT_DESCR_1VS3: "A strong Battleship vs 3 weaker players.",
     TID_LANGUAGE: "LANGUAGE",
@@ -658,22 +593,17 @@ export default {
     TID_SETTINGS_SCREEN_RES: "SCREEN RESOLUTION",
     TID_UNLINK_STEAM: "RESET GAME",
     TID_UNLINK_STEAM_DONE: "The game will now exit. Please relaunch from Steam to start playing in your new game.",
-    TID_UNLINK_STEAM_PROMPT_1:
-        "This process will erase all your Steam progress and start a new game under your current Steam account. You will lose access to this game forever.",
-    TID_UNLINK_STEAM_PROMPT_2:
-        "You will not be able to transfer any resources, including resources purchased via in-app purchases, to the new game.",
-    TID_UNLINK_STEAM_PROMPT_3:
-        "Only your Steam progress will be reset. If you have other platforms associated with this game, you will still be able to access it from those platforms. It is not possible to restart the game on other platforms. For more information, see the HELP & SUPPORT link in the SETTINGS window.",
+    TID_UNLINK_STEAM_PROMPT_1: "This process will erase all your Steam progress and start a new game under your current Steam account. You will lose access to this game forever.",
+    TID_UNLINK_STEAM_PROMPT_2: "You will not be able to transfer any resources, including resources purchased via in-app purchases, to the new game.",
+    TID_UNLINK_STEAM_PROMPT_3: "Only your Steam progress will be reset. If you have other platforms associated with this game, you will still be able to access it from those platforms. It is not possible to restart the game on other platforms. For more information, see the HELP & SUPPORT link in the SETTINGS window.",
     TID_UNLINK_STEAM_PROMPT_4: "This is your final confirmation. If you continue, the current game will be lost.",
     TID_UNLINK_STEAM_PROMPT_TOGGLE: "I understand and wish to continue.",
     TID_SETTINGS_QUIT_GAME: "EXIT GAME",
     TID_CONFIGURE_CONTROLS: "CONFIGURE CONTROLS",
     TID_ACCOUNT_HEADER: "ACCOUNT",
-    TID_ACCOUNT_INFO_STEAM:
-        "Your progress is being saved to your Steam account. To access your game from another Steam computer, simply sign in to Steam with the same account and launch the game.\\n\\nTo access your game from a non-Steam device, press the Link button below.",
+    TID_ACCOUNT_INFO_STEAM: "Your progress is being saved to your Steam account. To access your game from another Steam computer, simply sign in to Steam with the same account and launch the game.\\n\\nTo access your game from a non-Steam device, press the Link button below.",
     TID_ACCOUNT_LINK_BTN: "LINK ANOTHER DEVICE",
-    TID_ACCOUNT_LOGGEDIN_ANDROID:
-        "Your progress is being saved to your Google account. To access your game from another Android device, sign in with the same Google account.\\n\\nTo access your game from a non-Android device, press the Link button below.",
+    TID_ACCOUNT_LOGGEDIN_ANDROID: "Your progress is being saved to your Google account. To access your game from another Android device, sign in with the same Google account.\\n\\nTo access your game from a non-Android device, press the Link button below.",
     TID_CTRL_DLG_CAMERA_UP: "MOVE CAMERA UP",
     TID_CTRL_DLG_CAMERA_DOWN: "MOVE CAMERA DOWN",
     TID_CTRL_DLG_CAMERA_LEFT: "MOVE CAMERA LEFT",
@@ -693,8 +623,7 @@ export default {
     TID_SELECT_MODULE_8: "SELECT MODULE 8",
     TID_ZONE_TITLE: "ZONE {0}",
     TID_ARENA_MODULE_REWARDS: "MODULE UNLOCKS",
-    TID_ARENA_MODULE_REWARDS_DESCR:
-        "Artifacts awarded after combat in this Zone will include blueprints for these modules, as well as modules in lower Zones.",
+    TID_ARENA_MODULE_REWARDS_DESCR: "Artifacts awarded after combat in this Zone will include blueprints for these modules, as well as modules in lower Zones.",
     TID_ARENA_COMBAT_REWARDS: "COMBAT REWARDS",
     TID_ARENA_COMBAT_REWARDS_DESCR: "Your exact rewards after combat depend on the Zone and your final placement.",
     TID_ARENA_COMBAT_REWARD_PLACE_1: "1st",
@@ -704,11 +633,9 @@ export default {
     TID_ARENA_COMBAT_REWARD_PLACE_5: "5th",
     TID_ARENA_COMBAT_REWARDS_MAX: "Maximum daily award from Combat:",
     TID_NEXT_ARENA: "NEXT ZONE",
-    TID_NEXT_ARENA_HINT:
-        "Earn Influence from combat to advance to the next Zone. Higher zones yield blueprints for new Modules, and higher rewards.",
+    TID_NEXT_ARENA_HINT: "Earn Influence from combat to advance to the next Zone. Higher zones yield blueprints for new Modules, and higher rewards.",
     TID_INFLUENCE_PROGRESSION_TITLE: "ZONE PROGRESSION",
-    TID_INFLUENCE_PROGRESSION_HELP:
-        "Collect Influence to unlock rewards and reach new Zones. Higher Zones will help you find new modules, and will increase Combat rewards.",
+    TID_INFLUENCE_PROGRESSION_HELP: "Collect Influence to unlock rewards and reach new Zones. Higher Zones will help you find new modules, and will increase Combat rewards.",
     TID_CONFIRM_SHIP_TO_GIVE_XP_TO: "XP will go to {0}",
     TID_MUST_CLAIM_PREVIOUS_REWARD: "Claim the previous reward first.",
     TID_ALREADY_CLAIMED: "This reward has already been claimed.",

@@ -1,13 +1,16 @@
 import Runner from '../modules/Runner.js';
 
 export default class LocStrings extends Runner {
+    prettierConfig = {
+        printWidth: 420,
+    }
+
     static config = {
         files: /loc_strings_\w+/,
     }
 
     render() {
-        const data = parseKeyValue(this.args.raw);
-        return this.newJson(data, this.args.metadata);
+        return this.newJson(parseKeyValue(this.args.raw));
     }
 }
 

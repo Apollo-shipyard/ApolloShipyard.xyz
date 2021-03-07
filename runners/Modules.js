@@ -38,6 +38,6 @@ export default class Modules extends Runner {
             }
         });
 
-        return this.newJson(data, this.args.metadata);
+        return this.newJson(data);
     }
 }
