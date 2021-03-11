@@ -29,7 +29,7 @@ FireflyStealth,TID_MOD_FIREFLY_STEALTH,TID_MOD_FIREFLY_STEALTH_DESCR,concept_Ste
 ,,,,,,,,,700,,,600,,,,,,,,,,,
 ,,,,,,,,,1000,,,1000,,,,,,,,,,,
 ,,,,,,,,,1500,,,1500,,,,,,,,,,,
-Arrow,TID_MOD_ARROW,TID_MOD_ARROW_DESCR,concept_Arrow,1,,,Arrow,,1,,,0,3000,20,,0,Arrow,2000,1,,,,sfx_generic_fighter_bomber_spawn
+Arrow,TID_MOD_ARROW,TID_MOD_ARROW_DESCR,concept_Arrow,1,,,Arrow,1,1,,,0,3000,20,,0,Arrow,2000,1,,,,sfx_generic_fighter_bomber_spawn
 ,,,,,,,,,5,,,10,,,,,,,,,,,
 ,,,,,,,,,20,,,20,,,,,,,,,,,
 ,,,,,,,,,50,,,40,,,,,,,,,,,
@@ -39,7 +39,7 @@ Arrow,TID_MOD_ARROW,TID_MOD_ARROW_DESCR,concept_Arrow,1,,,Arrow,,1,,,0,3000,20,,
 ,,,,,,,,,700,,,600,,,,,,,,,,,
 ,,,,,,,,,1000,,,1000,,,,,,,,,,,
 ,,,,,,,,,1500,,,1500,,,,,,,,,,,
-ArrowFactory,TID_MOD_ARROW_FACTORY,TID_MOD_ARROW_FACTORY_DESCR,concept_ArrowFactory,7,1,,ArrowFactory,,1,,,0,3000,70,,0,ArrowFactory,0,1,,,,sfx_generic_fighter_bomber_spawn
+ArrowFactory,TID_MOD_ARROW_FACTORY,TID_MOD_ARROW_FACTORY_DESCR,concept_ArrowFactory,7,1,,ArrowFactory,,1,,,0,3000,60,,0,ArrowFactory,0,1,,,,sfx_generic_fighter_bomber_spawn
 ,,,,,,,,,2,,,10,,,,,,,,,,,
 ,,,,,,,,,4,,,20,,,,,,,,,,,
 ,,,,,,,,,8,,,40,,,,,,,,,,,
@@ -49,7 +49,7 @@ ArrowFactory,TID_MOD_ARROW_FACTORY,TID_MOD_ARROW_FACTORY_DESCR,concept_ArrowFact
 ,,,,,,,,,100,,,600,,,,,,,,,,,
 ,,,,,,,,,150,,,1000,,,,,,,,,,,
 ,,,,,,,,,250,,,1500,,,,,,,,,,,
-Bomber,TID_MOD_BOMBER,TID_MOD_BOMBER_DESCR,concept_Bomber,1,,,Bomber,,1,,,0,3000,20,,0,Bomber,2000,1,,,,sfx_generic_fighter_bomber_spawn
+Bomber,TID_MOD_BOMBER,TID_MOD_BOMBER_DESCR,concept_Bomber,1,,,Bomber,1,1,,,0,3000,20,,0,Bomber,2000,1,,,,sfx_generic_fighter_bomber_spawn
 ,,,,,,,,,5,,,10,,,,,,,,,,,
 ,,,,,,,,,20,,,20,,,,,,,,,,,
 ,,,,,,,,,50,,,40,,,,,,,,,,,
@@ -189,7 +189,7 @@ AttackBoost,TID_BS_ABILITY_ATTACK_BOOST,,concept_AttackBoost,5,,1,AttackBoost,,1
 ,,,,,,,,,700,,,600,,,,,,,,,,,
 ,,,,,,,,,1000,,,1000,,,,,,,,,,,
 ,,,,,,,,,1500,,,1500,,,,,,,,,,,
-EMP,TID_MOD_EMP,TID_MOD_EMP_DESCR,concept_EMP,4,,,EMP,,1,,,0,3000,20,EMP,1,,,,,,,
+EMP,TID_MOD_EMP,TID_MOD_EMP_DESCR,concept_EMP,4,,,EMP,,1,,,0,6000,20,EMP,1,,,,,,,
 ,,,,,,,,,5,,,10,,,,,,,,,,,
 ,,,,,,,,,20,,,20,,,,,,,,,,,
 ,,,,,,,,,50,,,40,,,,,,,,,,,
@@ -239,7 +239,7 @@ AreaShield,TID_MOD_AREA_SHIELD,TID_MOD_AREA_SHIELD_DESCR,concept_AreaShield,2,1,
 ,,,,,,,,,100,,,600,,,,,,,,,,,
 ,,,,,,,,,150,,,1000,,,,,,,,,,,
 ,,,,,,,,,250,,,1500,,,,,,,,,,,
-Colossus,TID_MOD_COLOSSUS,TID_MOD_COLOSSUS_DESCR,concept_Colossus,1,,,Colossus,,1,,,0,3000,50,,0,Colossus,4000,1,,,,sfx_generic_fighter_bomber_spawn
+Colossus,TID_MOD_COLOSSUS,TID_MOD_COLOSSUS_DESCR,concept_Colossus,1,,,Colossus,1,1,,,0,3000,50,,0,Colossus,4000,1,,,,sfx_generic_fighter_bomber_spawn
 ,,,,,,,,,5,,,10,,,,,,,,,,,
 ,,,,,,,,,20,,,20,,,,,,,,,,,
 ,,,,,,,,,50,,,40,,,,,,,,,,,

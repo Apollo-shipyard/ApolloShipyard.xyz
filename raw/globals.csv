@@ -43,7 +43,7 @@ StartPC,50
 CRPurchaseRewards,120!750!3000
 XPPerLevel,1000
 MaxCreditsStorage,500000
-CombatUnlockLevel,5
+CombatUnlockLevel,3
 ResourcePageUnlockLvl,2
 CorpPageUnlockLvl,2
 EventPageUnlockLvl,2
@@ -59,6 +59,9 @@ RPCapacity,100
 RPPerMPWin,30
 RPPerMPLoss,15
 RPPerShipRank,50
+CombatBarMaxRP,200
+RPToAddPerHour,8
 MinModuleUseTick,60
 TutorialModuleAwards,5!3!24!0!13
 TutorialModuleAwardAmounts,1!1!1!4!1
+AllianceLeaderboardMatchesPerDay,3

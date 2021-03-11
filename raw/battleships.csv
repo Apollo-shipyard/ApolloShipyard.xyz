@@ -1,5 +1,5 @@
 Name,TID,TID_DESCR,IsPlayerShip,Rarity,Icon,PassiveAbility,HydroUsePct,UnlockPrices,UnlockXP,ModuleSlots,MaxForwardSpeed,MaxForwardSpeedAchieveSecFP,SlowdownDistance,MaxRotateSpeedFP,MaxRotateSpeedAchieveSecFP,StartReducingRotateSpeedAngle,MaxHealth,Model,TurretPos,TurretAnglesFP,sfx_startengine,sfx_stopengine,sfx_enginerunning,sfx_destroy,TriangleBounds,CustomTurretDPS,SpecialArea
-Artemis,TID_BS_ARTEMIS,TID_BS_ARTEMIS_DESCR,1,,player_portrait01,0,60,0,0,4,650,1200,600,120000,500,20,3000,battleship_Artemis,0!800!-388!120!388!120,0!90000!-90000,sfx_battleship_engine_flight_start,sfx_battleship_engine_flight_end,sfx_battleship_engine_flight_loop,sfx_battleship_jump_out,-162!984!-430!208!-408!-313!-162!984!-408!-313!-193!-982!-162!984!-193!-982!156!-986!-162!984!156!-986!402!-317!-162!984!402!-317!395!200!-162!984!395!200!162!979,,
+Artemis,TID_BS_ARTEMIS,TID_BS_ARTEMIS_DESCR,1,,player_portrait01,0,60,0,0,4,650,1200,600,120000,500,20,3000,battleship_Artemis,0!800!-388!120!388!120!0!-622,0!90000!-90000!180000,sfx_battleship_engine_flight_start,sfx_battleship_engine_flight_end,sfx_battleship_engine_flight_loop,sfx_battleship_jump_out,149!1000!-145!995!-449!221!149!1000!-449!221!-457!-217!149!1000!-457!-217!-234!-763!149!1000!-234!-763!229!-770!149!1000!229!-770!451!-219!149!1000!451!-219!455!210,,
 ,,,,,,,,20,10,,,,,,,,3300,,,,,,,,,,
 ,,,,,,,,40,20,,,,,,,,3630,,,,,,,,,,
 ,,,,,,,,80,50,,,,,,,,3993,,,,,,,,,,
@@ -70,7 +70,7 @@ Gaia,TID_BS_GAIA,TID_BS_GAIA_DESCR,1,1,player_portrait04,4,90,0,0,8,550,2500,800
 ,,,,,,,,1200,200,,,,,,,,11690,,,,,,,,,,
 ,,,,,,,,2000,300,,,,,,,,12859,,,,,,,,,,
 ,,,,,,,,3000,400,,,,,,,,14144,,,,,,,,,,
-Hades,TID_BS_HADES,TID_BS_HADES_DESCR,1,1,player_portrait13,3,100,0,0,8,750,2500,800,60000,500,20,4500,battleship_Hades,-148!865!148!865!-148!334!148!334,90000!-90000!90000!-90000,sfx_battleship_engine_flight_start,sfx_battleship_engine_flight_end,sfx_battleship_engine_flight_loop,sfx_battleship_jump_out,-217!1150!-415!-615!-187!-1280!-217!1150!-187!-1280!230!-1280!-217!1150!230!-1280!405!-605!-217!1150!405!-605!197!1150,,-310!-893!259!-222
+Hades,TID_BS_HADES,TID_BS_HADES_DESCR,1,1,player_portrait13,3,100,0,0,8,750,2500,800,60000,500,20,4500,battleship_Hades,-148!1062!148!1062!-148!334!148!334!0!-1165,45000!-45000!90000!-90000!180000,sfx_battleship_engine_flight_start,sfx_battleship_engine_flight_end,sfx_battleship_engine_flight_loop,sfx_battleship_jump_out,-217!1150!-415!-615!-187!-1280!-217!1150!-187!-1280!230!-1280!-217!1150!230!-1280!405!-605!-217!1150!405!-605!197!1150,,-310!-893!259!-222
 ,,,,,,,,20,10,,,,,,,,4950,,,,,,,,,,
 ,,,,,,,,40,20,,,,,,,,5445,,,,,,,,,,
 ,,,,,,,,80,50,,,,,,,,5989,,,,,,,,,,
