@@ -1,0 +1,3 @@
+[submodule "parser"]
+	path = parser
+	url = git@github.com:Apollo-shipyard/parser.git
