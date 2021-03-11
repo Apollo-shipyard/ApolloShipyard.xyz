@@ -1,0 +1,34 @@
+// @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+:root { // TODO переписать на SCSS переменные
+    --bg: #131313;
+    --text-color: #c2cdd4;
+    --table-bg: #0f1416;
+    --table-bg2: #090e10;
+    --table-hover: #151a1c;
+    --border-color: #292929;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: var(--bg);
+    // font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Aldrich', sans-serif;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+
+    &:visited, &:link {
+        color: #036fa0;
+    }
+    &:active, &:hover  {
+        color: #029be0
+    }
+}

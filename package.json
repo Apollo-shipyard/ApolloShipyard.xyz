@@ -1,0 +1,39 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apollo-shipyard/frontend.git"
+  },
+  "author": "Xinos",
+  "bugs": {
+    "url": "https://github.com/Apollo-shipyard/frontend/issues"
+  },
+  "homepage": "https://github.com/Apollo-shipyard/frontend#readme",
+  "dependencies": {
+    "@vue/cli": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "babel-core": "^7.0.0-bridge.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "10.1.1",
+    "vue": "^2.6.12",
+    "vue-i18n": "^8.22.4",
+    "vue-meta": "^2.4.0",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.5.1",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^7.6.0"
+  }
+}
