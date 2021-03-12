@@ -70,10 +70,10 @@ export default {
   padding: 0 5% 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 .list ol {
-  border: 5px outset #586066;
+  border: 5px dotted #586066;
   list-style-type: none;
   columns: 200px auto;
   font-size: 125%;

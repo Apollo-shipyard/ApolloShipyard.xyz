@@ -128,7 +128,7 @@ $mw: 900px;
   display: flex;
   justify-content: space-between;
   height: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 
   .body {
     flex-basis: 90%;
@@ -138,16 +138,26 @@ $mw: 900px;
     }
 
     .title {
-      font-size: 230%;
+      font-size: 200%;
 
+      @media screen and (max-width: $mw) {
+        font-size: 180%;
+      }
       a {
         color: #EB422C;
       }
     }
     .descr {
-      font-size: 180%;
+      font-size: 160%;
       margin: 2% 0 1% 0;
       padding-bottom: 10px;
+
+      @media screen and (max-width: $mw) {
+        font-size: 100%;
+      }
+    }
+    .characteristics .line {
+      padding: 0.5% 0;
     }
   }
   .icon {
@@ -175,11 +185,14 @@ $mw: 900px;
 
     @media screen and (max-width: $mw) {
       width: auto;
-      margin: 0 0 20px;
+      margin: 0 0 10px;
 
       &:last-child {
         margin: 0;
       }
+    }
+    .line {
+      padding: 1.5% 0;
     }
   }
 }
@@ -190,11 +203,18 @@ $mw: 900px;
   li.header {
     font-size: 180%;
     padding-bottom: 8px;
+
+    @media screen and (max-width: $mw) {
+      font-size: 120%;
+    }
   }
   li.line {
-    padding: 5px 0;
-    font-size: 150%;
+    font-size: 130%;
     white-space: nowrap;
+
+    @media screen and (max-width: $mw) {
+      font-size: 90%;
+    }
   }
   &:last-child {
     margin-right: 0;

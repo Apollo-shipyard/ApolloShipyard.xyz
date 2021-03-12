@@ -96,6 +96,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$mw: 900px;
+
 .table-bg {
   background-color: var(--table-bg);
 
@@ -112,7 +114,6 @@ export default {
   .lvl-col {
     position: sticky;
     left: 0;
-    //z-index: 2;
   }
   tr:hover {
     background-color: var(--table-hover);
@@ -121,7 +122,7 @@ export default {
     padding: 8px 10px 8px;
     line-height: 16px;
     text-align: center;
-    font-size: 90%;
+    font-size: 80%;
     user-select: none;
 
     border-top: 1px solid var(--border-color);
@@ -130,6 +131,10 @@ export default {
   th {
     background-color: var(--table-bg2);
     font-weight: bold;
+
+    @media screen and (max-width: $mw) {
+      font-size: 70%;
+    }
   }
 }
 </style>
