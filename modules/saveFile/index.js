@@ -12,7 +12,7 @@ const savePath = resolve('./dist');
 /**
  * Сохранить в файл
  * @param  {Function<Runner>} raw  Объект, который нужно сохранить
- * @param  {Object} program         Тип сохраняемого файла (прим. 'json', 'yaml' и т.д)
+ * @param  {Object} program        Опции верхнего процесса
  * @return {Promise<void>|Error}
  */
 export default function saveFile(raw, { type }) {

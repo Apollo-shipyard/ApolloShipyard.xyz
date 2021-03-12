@@ -5,7 +5,7 @@ const err = (error) => {
     throw error;
 };
 
-export default async function(file, runners, program) {
+export default async function(file, runners, opts) {
     const data = await loadFile(file, runners).catch(err);
-    return saveFile(data, program).catch(err);
+    return saveFile(data, opts).catch(err);
 }
