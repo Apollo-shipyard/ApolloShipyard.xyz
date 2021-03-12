@@ -1,8 +1,7 @@
 const configureWebpack = require('./webpack.config.js');
-const isDev = !(process.env.NODE_ENV === 'production');
+const isDev = (process.env.NODE_ENV === 'development');
 
 module.exports = {
-    // publicPath: (isDev) ? '/HadesStarData/' : '/',
     productionSourceMap: isDev,
     css: {
         sourceMap: isDev,

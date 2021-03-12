@@ -1,0 +1,30 @@
+name: Web app deployment
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Generate data
+        working-directory: parser
+        run: |
+          npm install
+          npm run start --type js
+
+      - name: Build
+        run: |
+          yarn global add @vue/cli-service-global
+          npm install
+          npm run build
+
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: dist
