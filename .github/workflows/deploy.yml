@@ -11,6 +11,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
+      - name: Dependencies
+        run: |
+          yarn global add @vue/cli-service-global
+          git submodule update --init --recursive
+          npm install
+
       - name: Generate data
         working-directory: parser
         run: |
@@ -18,10 +24,7 @@ jobs:
           npm run start --type js
 
       - name: Build
-        run: |
-          yarn global add @vue/cli-service-global
-          npm install
-          npm run build
+        run: npm run build
 
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
