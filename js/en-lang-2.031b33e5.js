@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["en-lang-2"],{e088:function(n){n.exports=JSON.parse('{"CONTENT":"Content","TEST":"test"}')}}]);
