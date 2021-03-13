@@ -24,6 +24,7 @@
     "node-sass": "^5.0.0",
     "sass-loader": "10.1.1",
     "vue": "^2.6.12",
+    "vue-gtag": "^1.11.0",
     "vue-i18n": "^8.22.4",
     "vue-meta": "^2.4.0",
     "vue-progressbar": "^0.7.5",
