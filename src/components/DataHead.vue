@@ -157,7 +157,7 @@ $mw: 900px;
       }
     }
     .characteristics .line {
-      padding: 0.5% 0;
+      padding: 4px 0;
     }
   }
   .icon {
@@ -192,7 +192,7 @@ $mw: 900px;
       }
     }
     .line {
-      padding: 1.5% 0;
+      padding: 4px 0;
     }
   }
 }

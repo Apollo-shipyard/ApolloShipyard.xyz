@@ -1,30 +1,19 @@
 <template>
   <div id="app">
     <vue-progress-bar />
-    <!--    <the-header/>-->
     <router-view />
-
-    <a
-      v-show="showBtnTop"
-      id="btn-top"
-      href="#"
-    />
+    <go-top />
   </div>
 </template>
 
 <script>
 import i18n from '@Utils/Vue/i18n.js';
-// import TheHeader from './TheHeader';
+import GoTop from './GoTop.vue';
 
 export default {
-    i18n,
     name: 'App',
-    // components: {TheHeader},
-    data() {
-        return {
-            showBtnTop: false,
-        };
-    },
+    components: { GoTop },
+    i18n,
     metaInfo() {
         return {
             htmlAttrs: {
@@ -33,8 +22,6 @@ export default {
         };
     },
     created() {
-        window.addEventListener('scroll', this.scroll); // кнопка наверх
-
         // статус-бар
         this.$Progress.start();
         this.$router.beforeEach((to, from, next) => {
@@ -48,11 +35,6 @@ export default {
         this.$router.afterEach(() => {
             this.$Progress.finish();
         });
-    },
-    methods: {
-        scroll() { // колбек кнопки наверх
-            this.showBtnTop = (window.pageYOffset > 300);
-        },
     },
 };
 </script>
