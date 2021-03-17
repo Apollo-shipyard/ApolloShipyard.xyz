@@ -1,4 +1,4 @@
-import { readdirSync } from 'fs';
+import { readdirSync, existsSync } from 'fs';
 import { pathToFileURL } from 'url';
 import { basename, resolve } from 'path';
 
@@ -46,9 +46,12 @@ console.log('\x1b[32m[✓] \x1b[0m Готово! (%s сек.)', time.final);
 
 
 function getFiles() {
-    if (program.args.length) {
-        return program.args
-            .map((f) => resolve(f));
+    const files = program.args
+        .map((f) => resolve(f))
+        .filter((f) => existsSync(f)); // commander не убирает opts из args
+
+    if (files.length) {
+        return files;
     } else {
         if (!program.noWipe) wipeDir(pathSave);
         return walkDir(pathRaw)

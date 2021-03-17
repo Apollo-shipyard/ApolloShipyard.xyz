@@ -30,13 +30,13 @@ export default class Runner {
 export class Pure extends Runner {
     constructor(args) {
         super(args);
-        this.metadata.runnerName = null;
+        this.args.metadata.runnerName = null;
     }
 
     static config = {}
 
     render() {
         const data = this.parse(this.args.raw);
-        return this.newJson(data, this.args.meta);
+        return this.newJson(data);
     }
 }
