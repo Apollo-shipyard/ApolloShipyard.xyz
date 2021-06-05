@@ -19,9 +19,9 @@
   "homepage": "https://github.com/Apollo-shipyard/frontend#readme",
   "dependencies": {
     "@vue/cli": "^4.5.11",
-    "@vue/cli-service": "^4.5.11",
+    "@vue/cli-service": "^4.5.13",
     "babel-core": "^7.0.0-bridge.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "@5.0.0",
     "sass-loader": "10.1.1",
     "vue": "^2.6.12",
     "vue-gtag": "^1.11.0",
