@@ -16,4 +16,3 @@ Takes paths to raw files and dirs as arguments
 
 ### Requirements 
 - Node v15+
-- npm v2+

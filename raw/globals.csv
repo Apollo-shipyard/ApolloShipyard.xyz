@@ -62,6 +62,15 @@ RPPerShipRank,50
 CombatBarMaxRP,200
 RPToAddPerHour,8
 MinModuleUseTick,60
-TutorialModuleAwards,5!3!24!0!13
-TutorialModuleAwardAmounts,1!1!1!4!1
+MinTurretFireTick,250
+TutorialModuleAwards,0!13!2
+TutorialModuleAwardAmounts,4!1!1
 AllianceLeaderboardMatchesPerDay,3
+MaxRecentPlayerNotifications,20
+BSRankedInfluenceReset,400
+RankedInfluenceToRPFactor,30
+XPForWin,300
+XPForLoss,150
+MinShipRankForRankedMatches,7
+WarpTargetSpeed,5000
+WarpTimeToMaxSpeed,100

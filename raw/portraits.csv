@@ -5,7 +5,7 @@ Name,Icon,Background,BackgroundColors,Detail,DetailColors,Hide,ReqShip,ReqShipRa
 4,player_portrait20,player_portrait_bg_01,97!219!255!255!255!255,,,,1,5
 5,player_portrait17,player_portrait_bg_01,97!219!255!255!255!255,,,,2,5
 6,player_portrait10,player_portrait_bg_01,97!219!255!255!255!255,,,,3,5
-7,player_portrait12,player_portrait_bg_01,97!219!255!255!255!255,,,1,5,5
+7,player_portrait12,player_portrait_bg_01,97!219!255!255!255!255,,,,5,5
 8,player_portrait16,player_portrait_bg_01,97!219!255!255!255!255,,,1,6,5
 9,player_portrait04,player_portrait_bg_01,97!219!255!255!255!255,,,,7,5
 10,player_portrait13,player_portrait_bg_01,97!219!255!255!255!255,,,,8,5
@@ -19,6 +19,6 @@ Name,Icon,Background,BackgroundColors,Detail,DetailColors,Hide,ReqShip,ReqShipRa
 18,player_portrait11,player_portrait_bg_01,97!219!255!255!255!255,,,1,,
 19,player_portrait14,player_portrait_bg_01,97!219!255!255!255!255,,,1,,
 20,player_portrait15,player_portrait_bg_01,97!219!255!255!255!255,,,1,,
-21,player_portrait18,player_portrait_bg_01,97!219!255!255!255!255,,,1,,
+21,player_portrait18,player_portrait_bg_01,97!219!255!255!255!255,,,,11,5
 22,player_portrait19,player_portrait_bg_01,97!219!255!255!255!255,,,1,,
-23,player_portrait21,player_portrait_bg_01,97!219!255!255!255!255,,,1,,
+23,player_portrait21,player_portrait_bg_01,97!219!255!255!255!255,,,,10,5
