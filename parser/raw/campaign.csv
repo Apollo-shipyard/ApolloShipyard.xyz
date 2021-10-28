@@ -1,0 +1,16 @@
+Name,GoalType,ReqInfluence,BehaviorScript,GoalTID,TitleTID,BotShip,FixedBotModules,RPAward,NoNavPoints,XP,ForceRetryOnLoss
+T1,DestroyEnemyBattleships,0,1,,TID_T1_TITLE,,,100,1,200,1
+T2,DestroyEnemyBattleships,0,2,,TID_T2_TITLE,,,100,,200,1
+T3,DestroyEnemyBattleships,0,3,,TID_T3_TITLE,,0!24!5!13,100,,200,
+T4,DestroyEnemyBattleships,50,,,,0,0!5!3,100,,200,
+T5,DestroyEnemyBattleships,100,,,,0,0!5!3,100,,200,
+L6,DestroyEnemyBattleships,150,,TID_DESTROY_SINGLE_BS,,,,,,200,
+L7,DestroyEnemyBattleships,200,,TID_DESTROY_MULTI_BS,,,,,,200,
+L8,DestroyEnemyBattleships,300,,TID_DESTROY_MULTI_BS,,,,,,200,
+L9,DestroyEnemyBattleships,400,,TID_DESTROY_MULTI_BS,,,,,,200,
+L10,DestroyEnemyBattleships,500,,TID_DESTROY_MULTI_BS,,,,,,200,
+L11,DestroyEnemyBattleships,600,,TID_DESTROY_MULTI_BS,,,,,,200,
+L12,DestroyEnemyBattleships,700,,TID_DESTROY_SINGLE_BS,,,,,,200,
+L13,DestroyEnemyBattleships,800,,TID_DESTROY_SINGLE_BS,,,,,,200,
+L14,DestroyEnemyBattleships,900,,TID_DESTROY_MULTI_BS,,,,,,200,
+L15,DestroyEnemyBattleships,1000,,TID_DESTROY_MULTI_BS,,,,,,200,

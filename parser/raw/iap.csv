@@ -1,0 +1,6 @@
+Name,TID,GooglePlayName,Model,PremiumCurrencyAmount,IsRealMoneyTransaction,RefPrice,DisplayOrder,SteamPrice
+am.PC1,TID_CRYSTAL_PACK_SMALL,com.inferno.pc1,crystal_pack_1,40,1,3,3,USD3
+am.PC2,TID_CRYSTAL_PACK_MED,com.inferno.pc2,crystal_pack_2,140,1,10,4,USD10
+am.PC3,TID_CRYSTAL_PACK_LARGE,com.inferno.pc3,crystal_pack_3,300,1,20,5,USD20
+am.PC4,TID_CRYSTAL_PACK_HUGE,com.inferno.pc4,crystal_pack_4,850,1,50,6,USD50
+am.PC5,TID_CRYSTAL_PACK_EPIC,com.inferno.pc5,crystal_pack_5,2000,1,100,7,USD100
