@@ -1,6 +1,0 @@
-Name,Fighter,CycleEndMs,SpawnPeriodMs
-Fireflies,Firefly,60000!120000,4000!2000!1000
-Colossus,Colossus,60000,5000!5000
-Carrier,Carrier,60000,10000!10000
-Cyclops,Cyclops,60000,10000!10000
-ColossusB,Colossus,120000,30000!20000
