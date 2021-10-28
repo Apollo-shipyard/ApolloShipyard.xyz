@@ -14,7 +14,6 @@ jobs:
       - name: Dependencies
         run: |
           yarn global add @vue/cli-service-global
-          git submodule update --init --recursive
           npm install
 
       - name: Generate data
